@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wb_button_cue_image_padding_bottom">-6.0dip</dimen>
+    <dimen name="wb_button_cue_margin_left">21.0dip</dimen>
+    <dimen name="wb_button_cue_margin_top">16.0dip</dimen>
+    <dimen name="wb_button_cue_offset_from_cursor">8.0dip</dimen>
+</resources>

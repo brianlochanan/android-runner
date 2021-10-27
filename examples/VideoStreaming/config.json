@@ -5,12 +5,12 @@
   },
   "repetitions": 1,
   "duration": 30000,
-  "monkeyrunner_path": "/home/brian/Android/Sdk/tools/bin/monkeyrunner",
-  "systrace_path": "/home/brian/Android/Sdk/platform-tools/systrace/systrace.py",
-  "powerprofile_path": "/home/brian/.local/share/apktool/framework/framework-res/res/xml/power_profile.xml",
+  "monkeyrunner_path": "/usr/lib/android-sdk/tools/monkeyrunner",
+  "systrace_path": "/usr/lib/android-sdk/platform-tools/systrace/systrace.py",
+  "powerprofile_path": "/home/pi/external_memory/android-runner/framework-res/res/xml/power_profile.xml",
   "paths": [
-    "/home/pi/android-runner/examples/VideoStreaming/com.google.android.youtube.apk",
-    "/home/pi/android-runner/examples/VideoStreaming/tv.twitch.android.app.apk"
+    "/home/pi/external_memory/android-runner/examples/VideoStreaming/com.google.android.youtube.apk",
+    "/home/pi/external_memory/android-runner/examples/VideoStreaming/tv.twitch.android.app.apk"
   ],
   "profilers": {
     "batterystats": {
@@ -24,7 +24,7 @@
     "interaction": [
       {
         "type": "monkeyreplay",
-        "path": "/home/pi/android-runner/MonkeyPlayer/trepnrecording.txt",
+        "path": "/home/pi/external_memory/android-runner/MonkeyPlayer/trepnrecording.txt",
         "timeout": 2000
       }
     ],
