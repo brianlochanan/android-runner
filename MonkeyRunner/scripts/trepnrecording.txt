@@ -1,0 +1,2 @@
+TOUCH|{'x':310,'y':1420,'type':'downAndUp',}
+TOUCH|{'x':820,'y':1950,'type':'downAndUp',}

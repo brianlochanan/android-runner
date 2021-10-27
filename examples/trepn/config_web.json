@@ -1,7 +1,7 @@
 {
   "type": "web",
   "devices": {
-    "j7duo2": {}
+    "pocophone": {}
   },
   "repetitions": 1,
   "randomization": false,

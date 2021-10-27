@@ -1,15 +1,16 @@
 {
   "type": "native",
   "devices": {
-    "pocophone": {}
+    "duo": {}
   },
-  "repetitions": 3,
-  "duration": 60000,
+  "repetitions": 1,
+  "duration": 30000,
   "monkeyrunner_path": "/home/brian/Android/Sdk/tools/bin/monkeyrunner",
   "systrace_path": "/home/brian/Android/Sdk/platform-tools/systrace/systrace.py",
   "powerprofile_path": "/home/brian/.local/share/apktool/framework/framework-res/res/xml/power_profile.xml",
   "paths": [
-    "/home/brian/Desktop/android-runner/AndroidRunner/Plugins/trepn/com.quicinc.trepn.apk"
+    "/home/brian/Desktop/android-runner/examples/VideoStreaming/com.google.android.youtube.apk",
+    "/home/brian/Desktop/android-runner/examples/VideoStreaming/tv.twitch.android.app.apk"
   ],
   "profilers": {
     "batterystats": {
@@ -17,13 +18,19 @@
     }
   },
   "scripts": {
+    "before_experiment": "Scripts/before_experiment.py",
+    "before_run": "Scripts/before_run.py",
+    "after_launch": "Scripts/after_launch.py",
     "interaction": [
       {
         "type": "monkeyreplay",
         "path": "/home/brian/Desktop/android-runner/MonkeyPlayer/trepnrecording.txt",
         "timeout": 2000
       }
-   ]
+    ],
+    "before_close": "Scripts/before_close.py",
+    "after_run": "Scripts/after_run.py",
+    "after_experiment": "Scripts/after_experiment.py"
   },
-  "time_between_run": 120000
+  "time_between_run": 30000
 }
