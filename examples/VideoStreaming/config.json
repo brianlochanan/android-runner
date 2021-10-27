@@ -9,8 +9,8 @@
   "systrace_path": "/home/brian/Android/Sdk/platform-tools/systrace/systrace.py",
   "powerprofile_path": "/home/brian/.local/share/apktool/framework/framework-res/res/xml/power_profile.xml",
   "paths": [
-    "/home/brian/Desktop/android-runner/examples/VideoStreaming/com.google.android.youtube.apk",
-    "/home/brian/Desktop/android-runner/examples/VideoStreaming/tv.twitch.android.app.apk"
+    "/home/pi/android-runner/examples/VideoStreaming/com.google.android.youtube.apk",
+    "/home/pi/android-runner/examples/VideoStreaming/tv.twitch.android.app.apk"
   ],
   "profilers": {
     "batterystats": {
