@@ -3,8 +3,8 @@
   "devices": {
     "duo": {}
   },
-  "repetitions": 1,
-  "duration": 30000,
+  "repetitions": 42,
+  "duration": 50000,
   "monkeyrunner_path": "/usr/lib/android-sdk/tools/monkeyrunner",
   "systrace_path": "/usr/lib/android-sdk/platform-tools/systrace/systrace.py",
   "powerprofile_path": "/home/pi/external_memory/android-runner/framework-res/res/xml/power_profile.xml",
@@ -31,5 +31,5 @@
     "after_run": "Scripts/after_run.py",
     "after_experiment": "Scripts/after_experiment.py"
   },
-  "time_between_run": 30000
+  "time_between_run": 50000
 }
