@@ -24,7 +24,7 @@
     "interaction": [
       {
         "type": "python3",
-        "path": "/home/pi/external_memory/android-runner/examples/VideoStreaming/scripts/interaction.py"
+        "path": "/home/pi/external_memory/android-runner/examples/VideoStreaming/Scripts/interaction.py"
       }
     ],
     "before_close": "Scripts/before_close.py",
