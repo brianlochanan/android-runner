@@ -1,20 +1,20 @@
 {
-  "type": "web",
+  "type": "native",
   "devices": {
-    "pocophone": {}
+    "duo": {}
   },
   "repetitions": 1,
-  "duration": 60000,
-  "browsers": ["chrome"],
-  "monkeyrunner_path": "/home/user/Android/Sdk/tools/bin/monkeyrunner",
-  "systrace_path": "/home/user/Android/Sdk/platform-tools/systrace/systrace.py",
-  "powerprofile_path": "android-runner/examples/batterystats/Scripts/power_profile.xml",
-  "paths": [
-    "https://www.google.com"
+  "duration": 30000,
+  "monkeyrunner_path": "/usr/lib/android-sdk/tools/monkeyrunner",
+  "systrace_path": "/usr/lib/android-sdk/platform-tools/systrace/systrace.py",
+  "powerprofile_path": "/home/pi/external_memory/android-runner/framework-res/res/xml/power_profile.xml",
+  "apps": [
+    "com.google.android.youtube"
   ],
   "profilers": {
     "batterystats": {
-      "cleanup": true
+      "cleanup": true,
+      "enable_systrace_parsing": false
     }
   },
   "scripts": {
@@ -24,14 +24,12 @@
     "interaction": [
       {
         "type": "python3",
-        "path": "Scripts/interaction.py",
-        "timeout": 500,
-        "logcat_regex": "some keyword"
+        "path": "/home/pi/external_memory/android-runner/MonkeyPlayer/interaction.py"
       }
     ],
     "before_close": "Scripts/before_close.py",
     "after_run": "Scripts/after_run.py",
     "after_experiment": "Scripts/after_experiment.py"
   },
-  "time_between_run": 120000
+  "time_between_run": 30000
 }

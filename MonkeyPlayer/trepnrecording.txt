@@ -1,5 +1,6 @@
-{"type": "drag", "points": [{"x": 200, "y": 350 }, {"x": 400, "y": 250 } ], "down": 2313, "up": 2314 }
-TOUCH|{"type": "touch", "y": 1090, "down": 100, "up": 100, "x": 560 }
-TOUCH|{'x':685,'y':1615,'type':'touch',}
-TOUCH|{'x':573,'y':1075,'type':'downAndUp',}
-TOUCH|{'x':590,'y':1610,'type':'downAndUp',}
+{"type": "touch", "y": 226, "down": 1, "up": 2, "x": 348 }
+{"type": "touch", "y": 226, "down": 3, "up": 4, "x": 348 }
+{"type": "touch", "y": 226, "down": 5, "up": 6, "x": 353 }
+{"type": "touch", "y": 226, "down": 7, "up": 8, "x": 353 }
+{"type": "touch", "y": 96, "down": 9, "up": 10, "x": 688 }
+{"type": "touch", "y": 904, "down": 11, "up": 12, "x": 195 }
