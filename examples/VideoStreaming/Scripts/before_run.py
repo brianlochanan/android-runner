@@ -5,16 +5,16 @@ from AndroidRunner.Device import Device
 
 def main(device, *args, **kwargs):
 
-    with open('/home/pi/external_memory/android-runner/examples/VideoStreaming/state.txt') as f:
+    with open('/media/external/android-runner/examples/VideoStreaming/state.txt') as f:
         first_line = f.readline()
     print(first_line)
 
     video_youtube(device, "360p", first_line)
 
 
-    with open('/home/pi/external_memory/android-runner/examples/VideoStreaming/state.txt', 'r') as fin:
+    with open('/media/external/android-runner/examples/VideoStreaming/state.txt', 'r') as fin:
         data = fin.read().splitlines(True)
-    with open('/home/pi/external_memory/android-runner/examples/VideoStreaming/state.txt', 'w') as fout:
+    with open('/media/external/android-runner/examples/VideoStreaming/state.txt', 'w') as fout:
         fout.writelines(data[1:])
 
     
