@@ -30,13 +30,19 @@ def video_youtube(device, quality, url):
 
     default_wait_time = 4
 
-    tap(device, 348, 226, default_wait_time * 30)
+    tap(device, 627, 354, default_wait_time + 3)
+
+    tap(device, 627, 354, default_wait_time + 3)
+
+    tap(device, 627, 354, default_wait_time + 3)
+
+    tap(device, 348, 226, default_wait_time + 3)
 
     # click ____
     tap(device, 348, 226)
 
     # click ____ this takes longer to load, wait more time
-    tap(device, 712, 96, default_wait_time * 2)
+    tap(device, 712, 96, default_wait_time)
     tap(device, 155, 810, default_wait_time)
     tap(device, 186, 1069, default_wait_time)
 
