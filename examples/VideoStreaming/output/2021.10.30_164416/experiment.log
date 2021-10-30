@@ -1,0 +1,373 @@
+2021-10-30 16:44:16,935:INFO:ExperimentFactory:/media/external/android-runner/examples/VideoStreaming/config_web.json
+2021-10-30 16:44:16,979:DEBUG:AndroidRunner.Adb:Device list:
+{0: '520045b34a5f357f'}
+2021-10-30 16:44:16,979:INFO:Device:Setting logcat buffer size to 57344K
+2021-10-30 16:44:17,060:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -G 57344K" returned: 
+
+2021-10-30 16:44:17,075:DEBUG:PluginHandler:batterystats: Initialized
+2021-10-30 16:44:17,075:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_experiment.py
+2021-10-30 16:44:17,076:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_run.py
+2021-10-30 16:44:17,077:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_launch.py
+2021-10-30 16:44:17,077:DEBUG:Python3:Imported /home/pi/external_memory/android-runner/examples/VideoStreaming/Scripts/interaction.py
+2021-10-30 16:44:17,078:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_close.py
+2021-10-30 16:44:17,078:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_run.py
+2021-10-30 16:44:17,078:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_experiment.py
+2021-10-30 16:44:17,161:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-30 16:44:17,221:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-30 16:44:17,221:INFO:NativeExperiment:Device: duo (520045b34a5f357f, Android 8.0.0, API level 26)
+2021-10-30 16:44:17,222:INFO:Profilers:Loading
+2021-10-30 16:44:17,288:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-30 16:44:17,348:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-30 16:44:17,348:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Loading configuration
+2021-10-30 16:44:17,348:INFO:Device:Default unplug
+2021-10-30 16:44:17,425:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-30 16:44:17,505:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys battery unplug" returned: 
+
+2021-10-30 16:44:17,570:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-30 16:44:17,631:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-30 16:44:17,632:DEBUG:Scripts:Running hook before_experiment on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-30 16:44:17,643:INFO:Python3:before_experiment.py
+2021-10-30 16:44:17,644:DEBUG:Python3:before_experiment.py returned None
+2021-10-30 16:44:17,648:INFO:Profilers:Setting output
+2021-10-30 16:44:17,650:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.30_164416/data/duo/com-google-android-youtube/batterystats
+2021-10-30 16:44:17,650:INFO:NativeExperiment:Run 1/42 of subject "com.google.android.youtube" on duo
+2021-10-30 16:44:17,731:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-30 16:44:17,732:INFO:NativeExperiment:Logcat cleared
+2021-10-30 16:44:17,787:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-30 16:44:17,849:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-30 16:44:17,850:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-30 16:44:17,868:INFO:Python3:before_run.py
+2021-10-30 16:44:18,771:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-30 16:44:26,517:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-30 16:45:01,285:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-30 16:45:06,037:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-30 16:45:15,805:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-30 16:45:16,511:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-30 16:45:21,240:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-30 16:45:26,024:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-30 16:45:29,580:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys battery reset" returned: 
+
+2021-10-30 16:45:29,582:INFO:Profilers:Stop profiling
+2021-10-30 16:45:29,660:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-30 16:45:29,737:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-30 16:45:29,738:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-30 16:45:29,739:INFO:Profilers:Unloading
+2021-10-30 16:45:29,808:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-30 16:45:29,880:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-30 16:45:29,881:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Cleanup
+2021-10-30 16:45:30,637:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "pm list packages" returned: 
+package:com.samsung.android.provider.filterprovider
+package:com.monotype.android.font.rosemary
+package:com.sec.android.app.DataCreate
+package:com.android.cts.priv.ctsshim
+package:com.gd.mobicore.pa
+package:com.sec.android.widgetapp.samsungapps
+package:com.google.android.youtube
+package:com.samsung.android.app.galaxyfinder
+package:com.sec.location.nsflp2
+package:stericson.busybox
+package:com.samsung.android.themestore
+package:com.sec.android.app.chromecustomizations
+package:com.google.android.ext.services
+package:com.android.providers.telephony
+package:com.sec.android.app.parser
+package:com.samsung.android.applock
+package:com.google.android.googlequicksearchbox
+package:com.samsung.android.calendar
+package:com.android.providers.calendar
+package:com.osp.app.signin
+package:com.samsung.clipboardsaveservice
+package:com.sec.automation
+package:com.android.providers.media
+package:com.google.android.onetimeinitializer
+package:com.sec.android.mimage.gear360editor
+package:com.google.android.ext.shared
+package:com.android.wallpapercropper
+package:com.samsung.android.provider.shootingmodeprovider
+package:com.samsung.android.wallpaper.res
+package:com.samsung.android.app.withtv
+package:com.samsung.android.smartmirroring
+package:com.skms.android.agent
+package:com.sec.android.app.safetyassurance
+package:com.samsung.android.incallui
+package:com.samsung.android.knox.containercore
+package:com.sec.factory.camera
+package:com.sec.vsimservice
+package:org.simalliance.openmobileapi.service
+package:com.sec.usbsettings
+package:com.samsung.android.easysetup
+package:com.android.documentsui
+package:android.auto_generated_rro__
+package:com.android.externalstorage
+package:com.sec.android.easyonehand
+package:com.sec.android.app.camerabokehservice
+package:com.sec.factory
+package:com.samsung.android.provider.stickerprovider
+package:com.android.htmlviewer
+package:com.android.companiondevicemanager
+package:com.android.mms.service
+package:com.samsung.android.rubin.app
+package:com.sec.android.wallpapercropper2
+package:com.android.providers.downloads
+package:com.diotek.sec.lookup.dictionary
+package:com.sec.android.easyMover.Agent
+package:com.samsung.ucs.agent.boot
+package:com.wsomacp
+package:com.samsung.faceservice
+package:com.monotype.android.font.foundation
+package:com.sec.android.widgetapp.easymodecontactswidget
+package:com.samsung.android.MtpApplication
+package:com.sec.android.app.factorykeystring
+package:com.sec.android.app.samsungapps
+package:com.sec.android.emergencymode.service
+package:com.google.android.configupdater
+package:com.sec.android.app.wlantest
+package:com.microsoft.office.excel
+package:com.samsung.android.app.camera.sticker.facear.preload
+package:com.sec.android.app.billing
+package:com.sec.epdgtestapp
+package:com.samsung.android.game.gamehome
+package:com.android.defcontainer
+package:com.sec.android.daemonapp
+package:com.sec.ims
+package:com.sec.sve
+package:com.sec.enterprise.knox.attestation
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.dsi.ant.service.socket
+package:com.sec.android.AutoPreconfig
+package:com.microsoft.skydrive
+package:com.samsung.android.SettingsReceiver
+package:com.sec.android.app.soundalive
+package:com.sec.android.providers.security
+package:com.sec.android.provider.badge
+package:com.android.certinstaller
+package:com.samsung.android.securitylogagent
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:com.samsung.android.knox.containeragent
+package:com.samsung.android.app.assistantmenu
+package:com.samsung.SMT
+package:com.samsung.cmh
+package:com.samsung.mlp
+package:com.samsung.knox.securefolder.setuppage
+package:com.sec.factory.iris.usercamera
+package:android
+package:com.samsung.knox.keychain
+package:com.samsung.android.app.multiwindow
+package:com.samsung.android.sm.devicesecurity
+package:com.dsi.ant.sample.acquirechannels
+package:com.android.egg
+package:com.android.mtp
+package:com.android.stk
+package:com.samsung.android.messaging
+package:com.android.backupconfirm
+package:com.samsung.klmsagent
+package:com.sec.android.app.SecSetupWizard
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.sec.android.app.hwmoduletest
+package:com.sec.bcservice
+package:com.sec.modem.settings
+package:com.sec.android.app.sysscope
+package:com.samsung.android.providers.context
+package:com.sec.android.app.servicemodeapp
+package:com.sec.android.preloadinstaller
+package:com.sec.android.uibcvirtualsoftkey
+package:com.google.android.setupwizard
+package:com.samsung.android.sdk.professionalaudio.utility.jammonitor
+package:com.sec.android.gallery3d
+package:com.android.providers.settings
+package:com.sec.imsservice
+package:com.android.sharedstoragebackup
+package:com.facebook.services
+package:com.samsung.android.mobileservice
+package:com.android.printspooler
+package:com.samsung.storyservice
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.samsung.knox.securefolder
+package:com.android.bips
+package:com.android.stk2
+package:com.samsung.android.game.gametools
+package:com.kingoapp.apk
+package:com.samsung.android.app.simplesharing
+package:com.samsung.android.da.daagent
+package:com.samsung.android.app.reminder
+package:com.samsung.android.timezone.autoupdate_O
+package:com.samsung.android.smartcallprovider
+package:com.google.android.apps.maps
+package:com.sec.enterprise.mdm.vpn
+package:com.dsi.ant.plugins.antplus
+package:com.microsoft.office.word
+package:com.samsung.advp.imssettings
+package:com.samsung.android.location
+package:com.sec.android.inputmethod
+package:com.sec.android.app.clockpackage
+package:com.sec.android.RilServiceModeApp
+package:com.google.android.webview
+package:com.sec.android.app.simsettingmgr
+package:com.microsoft.office.powerpoint
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.samsung.crane
+package:com.sec.imslogger
+package:com.samsung.android.clipboarduiservice
+package:com.android.keychain
+package:com.android.chrome
+package:com.samsung.android.themecenter
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tts
+package:android.autoinstalls.config.samsung
+package:com.android.calllogbackup
+package:com.google.android.partnersetup
+package:com.sec.android.diagmonagent
+package:com.sec.spp.push
+package:com.android.carrierdefaultapp
+package:com.dsi.ant.server
+package:com.sec.android.app.myfiles
+package:com.android.proxyhandler
+package:com.samsung.android.allshare.service.fileshare
+package:com.sec.android.mimage.photoretouching
+package:com.sec.android.app.launcher
+package:flipboard.boxer.app
+package:com.google.android.feedback
+package:com.google.android.printservice.recommendation
+package:com.google.android.syncadapters.calendar
+package:com.android.managedprovisioning
+package:com.samsung.android.authfw
+package:com.monotype.android.font.chococooky
+package:com.android.dreams.phototable
+package:com.sec.android.service.health
+package:com.samsung.safetyinformation
+package:com.facebook.katana
+package:com.samsung.android.dqagent
+package:com.sec.android.app.ringtoneBR
+package:com.android.providers.partnerbookmarks
+package:com.samsung.android.app.accesscontrol
+package:com.android.wallpaper.livepicker
+package:com.samsung.android.beaconmanager
+package:com.sec.enterprise.mdm.services.simpin
+package:com.samsung.networkui
+package:com.samsung.android.stickercenter
+package:com.facebook.system
+package:com.sec.android.soagent
+package:com.samsung.android.fmm
+package:com.samsung.android.mdm
+package:com.samsung.android.rlc
+package:com.sec.phone
+package:com.google.android.backuptransport
+package:com.samsung.android.samsungpass
+package:com.android.storagemanager
+package:com.samsung.android.scloud
+package:com.samsung.android.app.soundpicker
+package:com.sec.app.RilErrorNotifier
+package:com.android.bookmarkprovider
+package:com.linkedin.android
+package:com.android.settings
+package:com.samsung.app.newtrim
+package:com.samsung.android.app.color
+package:com.samsung.android.lool
+package:com.sec.android.app.bluetoothtest
+package:com.samsung.android.app.spage
+package:com.sec.android.emergencylauncher
+package:com.sec.hearingadjust
+package:com.samsung.android.dlp.service
+package:com.samsung.android.bbc.bbcagent
+package:com.knox.vpn.proxyhandler
+package:com.android.cts.ctsshim
+package:com.samsung.android.stickerplugin
+package:com.sec.android.splitsound
+package:com.wssnps
+package:com.samsung.android.app.watchmanagerstub
+package:com.samsung.android.svcagent
+package:com.policydm
+package:com.samsung.android.sdk.professionalaudio.app.audioconnectionservice
+package:com.enhance.gameservice
+package:com.samsung.android.shortcutbackupservice
+package:com.android.vpndialogs
+package:com.samsung.android.providers.contacts
+package:com.samsung.dcmservice
+package:com.android.phone
+package:com.android.shell
+package:com.android.wallpaperbackup
+package:com.android.providers.blockednumber
+package:com.samsung.android.app.omcagent
+package:com.hiya.star
+package:com.android.providers.userdictionary
+package:com.sec.enterprise.knox.cloudmdm.smdms
+package:com.samsung.android.app.camera.sticker.stamp.preload
+package:com.android.emergency
+package:com.wssyncmldm
+package:com.android.location.fused
+package:com.samsung.android.samsungpassautofill
+package:com.sec.epdg
+package:com.android.systemui
+package:com.sec.android.app.personalization
+package:com.monotype.android.font.cooljazz
+package:com.android.bluetoothmidiservice
+package:com.samsung.android.sdk.handwriting
+package:com.facebook.appmanager
+package:com.samsung.android.app.clockpack
+package:com.quicinc.trepn
+package:com.samsung.aasaservice
+package:com.samsung.android.allshare.service.mediashare
+package:com.sec.android.app.fm
+package:com.sec.android.provider.emergencymode
+package:com.samsung.android.fingerprint.service
+package:com.sec.android.app.camera
+package:com.android.bluetooth
+package:com.samsung.android.contacts
+package:com.sec.android.app.magnifier
+package:com.sec.android.widgetapp.webmanual
+package:com.samsung.sec.android.application.csc
+package:com.android.captiveportallogin
+package:com.samsung.upsmtheme
+package:com.samsung.android.coreapps
+package:com.samsung.android.app.dofviewer
+package:com.samsung.android.bio.face.service
+package:com.samsung.android.video
+
+2021-10-30 16:45:30,638:ERROR:root:Experiment stopped by user. To continue, add progress file argument to experiment startup: --progress /media/external/android-runner/examples/VideoStreaming/output/2021.10.30_164416/progress.xml

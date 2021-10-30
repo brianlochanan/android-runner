@@ -1,0 +1,35 @@
+{
+  "type": "native",
+  "devices": {
+    "duo": {}
+  },
+  "repetitions": 42,
+  "duration": 50000,
+  "monkeyrunner_path": "/usr/lib/android-sdk/tools/monkeyrunner",
+  "systrace_path": "/usr/lib/android-sdk/platform-tools/systrace/systrace.py",
+  "powerprofile_path": "/media/external/android-runner/framework-res/res/xml/power_profile.xml",
+  "apps": [
+    "com.google.android.youtube"
+  ],
+  "profilers": {
+    "batterystats": {
+      "cleanup": true,
+      "enable_systrace_parsing": false
+    }
+  },
+  "scripts": {
+    "before_experiment": "Scripts/before_experiment.py",
+    "before_run": "Scripts/before_run.py",
+    "after_launch": "Scripts/after_launch.py",
+    "interaction": [
+      {
+        "type": "python3",
+        "path": "/media/external/android-runner/examples/VideoStreaming/Scripts/interaction.py"
+      }
+    ],
+    "before_close": "Scripts/before_close.py",
+    "after_run": "Scripts/after_run.py",
+    "after_experiment": "Scripts/after_experiment.py"
+  },
+  "time_between_run": 30000
+}
