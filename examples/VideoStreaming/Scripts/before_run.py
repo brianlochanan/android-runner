@@ -32,11 +32,11 @@ def video_youtube(device, quality, url):
 
     tap(device, 627, 354, default_wait_time + 3)
 
-    tap(device, 627, 354, default_wait_time + 3)
+    tap(device, 627, 354, default_wait_time + 30)
 
-    tap(device, 627, 354, default_wait_time + 3)
+    tap(device, 627, 354, default_wait_time)
 
-    tap(device, 348, 226, default_wait_time + 3)
+    tap(device, 348, 226, default_wait_time + 5)
 
     # click ____
     tap(device, 348, 226)
