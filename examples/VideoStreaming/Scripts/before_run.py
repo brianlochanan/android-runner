@@ -9,7 +9,7 @@ def main(device, *args, **kwargs):
         first_line = f.readline()
     print(first_line)
 
-    video_youtube(device, "360p", first_line)
+    video_youtube(device, "480p", first_line)
 
 
     with open('/media/external/android-runner/examples/VideoStreaming/state.txt', 'r') as fin:
