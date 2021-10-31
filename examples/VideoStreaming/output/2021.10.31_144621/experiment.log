@@ -1,0 +1,61 @@
+2021-10-31 14:46:21,761:INFO:ExperimentFactory:/media/external/android-runner/examples/VideoStreaming/config_web.json
+2021-10-31 14:46:21,806:DEBUG:AndroidRunner.Adb:Device list:
+{0: '520045b34a5f357f'}
+2021-10-31 14:46:21,807:INFO:Device:Setting logcat buffer size to 57344K
+2021-10-31 14:46:21,912:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -G 57344K" returned: 
+
+2021-10-31 14:46:21,929:DEBUG:PluginHandler:batterystats: Initialized
+2021-10-31 14:46:21,930:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_experiment.py
+2021-10-31 14:46:21,930:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_run.py
+2021-10-31 14:46:21,931:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_launch.py
+2021-10-31 14:46:21,932:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/interaction.py
+2021-10-31 14:46:21,932:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_close.py
+2021-10-31 14:46:21,933:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_run.py
+2021-10-31 14:46:21,933:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_experiment.py
+2021-10-31 14:46:22,032:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 14:46:22,093:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 14:46:22,094:INFO:NativeExperiment:Device: duo (520045b34a5f357f, Android 8.0.0, API level 26)
+2021-10-31 14:46:22,094:INFO:Profilers:Loading
+2021-10-31 14:46:22,154:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 14:46:22,222:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 14:46:22,223:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Loading configuration
+2021-10-31 14:46:22,223:INFO:Device:Default unplug
+2021-10-31 14:46:22,282:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 14:46:22,371:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys battery unplug" returned: 
+
+2021-10-31 14:46:22,438:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 14:46:22,492:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 14:46:22,493:DEBUG:Scripts:Running hook before_experiment on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 14:46:22,505:INFO:Python3:before_experiment.py
+2021-10-31 14:46:22,506:DEBUG:Python3:before_experiment.py returned None
+2021-10-31 14:46:22,510:INFO:Profilers:Setting output
+2021-10-31 14:46:22,511:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_144621/data/duo/com-google-android-youtube/batterystats
+2021-10-31 14:46:22,512:INFO:NativeExperiment:Run 1/30 of subject "com.google.android.youtube" on duo
+2021-10-31 14:46:22,750:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys battery reset" returned: 
+
+2021-10-31 14:46:22,751:INFO:Profilers:Stop profiling
+2021-10-31 14:46:22,807:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 14:46:22,859:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 14:46:22,860:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 14:46:22,860:INFO:Profilers:Unloading
+2021-10-31 14:46:22,900:ERROR:root:Experiment stopped by user. To continue, add progress file argument to experiment startup: --progress /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_144621/progress.xml
