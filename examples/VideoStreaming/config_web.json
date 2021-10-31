@@ -3,7 +3,7 @@
   "devices": {
     "duo": {}
   },
-  "repetitions": 42,
+  "repetitions": 30,
   "duration": 50000,
   "monkeyrunner_path": "/usr/lib/android-sdk/tools/monkeyrunner",
   "systrace_path": "/usr/lib/android-sdk/platform-tools/systrace/systrace.py",
@@ -31,5 +31,5 @@
     "after_run": "Scripts/after_run.py",
     "after_experiment": "Scripts/after_experiment.py"
   },
-  "time_between_run": 30000
+  "time_between_run": 5000
 }
