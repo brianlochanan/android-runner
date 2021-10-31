@@ -1,0 +1,1831 @@
+2021-10-31 18:13:01,172:INFO:ExperimentFactory:/media/external/android-runner/examples/VideoStreaming/config_web.json
+2021-10-31 18:13:01,218:DEBUG:AndroidRunner.Adb:Device list:
+{0: '520045b34a5f357f'}
+2021-10-31 18:13:01,218:INFO:Device:Setting logcat buffer size to 57344K
+2021-10-31 18:13:01,295:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -G 57344K" returned: 
+
+2021-10-31 18:13:01,311:DEBUG:PluginHandler:batterystats: Initialized
+2021-10-31 18:13:01,312:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_experiment.py
+2021-10-31 18:13:01,318:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_run.py
+2021-10-31 18:13:01,319:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_launch.py
+2021-10-31 18:13:01,320:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/interaction.py
+2021-10-31 18:13:01,321:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_close.py
+2021-10-31 18:13:01,321:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_run.py
+2021-10-31 18:13:01,322:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_experiment.py
+2021-10-31 18:13:01,402:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:13:01,462:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:13:01,462:INFO:NativeExperiment:Device: duo (520045b34a5f357f, Android 8.0.0, API level 26)
+2021-10-31 18:13:01,463:INFO:Profilers:Loading
+2021-10-31 18:13:01,522:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:13:01,585:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:13:01,586:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Loading configuration
+2021-10-31 18:13:01,586:INFO:Device:Default unplug
+2021-10-31 18:13:01,644:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:13:01,711:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys battery unplug" returned: 
+
+2021-10-31 18:13:01,775:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:13:01,827:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:13:01,828:DEBUG:Scripts:Running hook before_experiment on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:13:01,840:INFO:Python3:before_experiment.py
+2021-10-31 18:13:01,841:DEBUG:Python3:before_experiment.py returned None
+2021-10-31 18:13:01,846:INFO:Profilers:Setting output
+2021-10-31 18:13:01,847:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/data/duo/com-google-android-youtube/batterystats
+2021-10-31 18:13:01,847:INFO:NativeExperiment:Run 1/30 of subject "com.google.android.youtube" on duo
+2021-10-31 18:13:01,914:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-31 18:13:01,914:INFO:NativeExperiment:Logcat cleared
+2021-10-31 18:13:01,971:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:13:02,026:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:13:02,027:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:13:02,038:INFO:Python3:before_run.py
+2021-10-31 18:13:02,923:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:13:10,634:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:13:45,371:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:13:50,082:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:13:59,811:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:14:00,483:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-31 18:14:05,186:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-31 18:14:09,886:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-31 18:14:14,583:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 162 922" returned: 
+
+2021-10-31 18:14:18,589:DEBUG:Python3:before_run.py returned None
+2021-10-31 18:14:19,340:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p com.google.android.youtube 1" returned: 
+  bash arg: -p
+  bash arg: com.google.android.youtube
+  bash arg: 1
+args: [-p, com.google.android.youtube, 1]
+ arg: "-p"
+ arg: "com.google.android.youtube"
+ arg: "1"
+data="com.google.android.youtube"
+Events injected: 1
+## Network stats: elapsed time=17ms (0ms mobile, 0ms wifi, 17ms not connected)
+
+2021-10-31 18:14:20,432:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:14:20,433:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:14:20,489:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:14:20,546:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:14:20,547:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:14:20,558:INFO:Python3:after_launch.py
+2021-10-31 18:14:20,560:DEBUG:Python3:after_launch.py returned None
+2021-10-31 18:14:20,563:INFO:Profilers:Start profiling
+2021-10-31 18:14:20,624:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:14:20,678:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:14:20,679:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-10-31 18:14:20,765:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-31 18:14:20,845:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:14:20,906:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:14:20,907:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3aee150>,)
+kwargs: {}
+2021-10-31 18:14:20,918:INFO:Python3:interaction.py
+2021-10-31 18:14:21,001:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:14:21,001:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:17:21,102:DEBUG:Python3:interaction.py returned None
+2021-10-31 18:18:11,156:INFO:Profilers:Stop profiling
+2021-10-31 18:18:11,219:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:18:11,273:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:18:11,274:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 18:18:11,347:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:18:11,347:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:18:11,401:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:18:11,460:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:18:11,461:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:18:11,473:INFO:Python3:before_close.py
+2021-10-31 18:18:11,474:DEBUG:Python3:before_close.py returned None
+2021-10-31 18:18:11,634:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop com.google.android.youtube" returned: 
+
+2021-10-31 18:18:14,712:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:18:14,774:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:18:14,774:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:18:14,786:INFO:Python3:after_run.py
+2021-10-31 18:18:15,479:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-10-31 18:18:15,480:DEBUG:Python3:after_run.py returned None
+2021-10-31 18:18:15,483:INFO:Profilers:Collecting results
+2021-10-31 18:18:15,547:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:18:15,606:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:18:15,607:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-10-31 18:18:15,666:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:18:16,062:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-31 18:18:16,250:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-31 18:18:16,370:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 444 used of 512KB, 8 strings using 532):
+                    0 (14) RESET:TIME: 2021-10-31-19-14-24
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=70 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a148:"com.google.android.youtube"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                    0 (2) 100 longwake=u0a148:"AudioMix"
+                +14ms (2) 100 stats=0:"dump"
+             +7s652ms (3) 100 current=200 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+            +17s673ms (3) 100 current=198 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+            +27s688ms (3) 100 current=187 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+            +37s706ms (3) 100 current=177 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+            +39s036ms (2) 100 +job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+            +39s052ms (2) 100 -job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+            +47s726ms (3) 100 current=167 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+            +57s746ms (3) 100 current=168 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m07s759ms (3) 100 current=154 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m17s777ms (3) 100 current=143 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m27s798ms (3) 100 current=95 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m37s818ms (3) 100 current=-212 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m47s839ms (3) 100 current=-227 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m57s863ms (3) 100 current=-226 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m07s881ms (3) 100 current=159 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m17s898ms (3) 100 current=168 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m27s912ms (3) 100 current=163 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m37s931ms (3) 100 current=162 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m47s954ms (3) 100 current=142 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m57s975ms (3) 100 current=146 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m07s989ms (3) 100 current=-187 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m18s011ms (3) 100 current=-222 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m28s030ms (3) 100 current=-239 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m38s046ms (3) 100 current=117 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m48s065ms (3) 100 current=177 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m50s873ms (2) 100 -top=u0a148:"com.google.android.youtube"
+          +3m50s873ms (2) 100 +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s127ms (3) 100 -audio -longwake=u0a148:"AudioMix"
+          +3m55s612ms (2) 100 stats=0:"dump"
+
+
+2021-10-31 18:18:16,553:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 42.1, actual drain: 0
+
+2021-10-31 18:18:16,680:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=70 ap_temp=30 pst_temp=29 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-10-31 18:18:33,665:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-31 18:18:33,709:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-10-31 18:18:38,722:INFO:Profilers:Setting output
+2021-10-31 18:18:38,723:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/data/duo/com-google-android-youtube/batterystats
+2021-10-31 18:18:38,723:INFO:NativeExperiment:Run 2/30 of subject "com.google.android.youtube" on duo
+2021-10-31 18:18:38,830:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-31 18:18:38,831:INFO:NativeExperiment:Logcat cleared
+2021-10-31 18:18:38,885:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:18:38,941:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:18:38,941:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:18:38,953:INFO:Python3:before_run.py
+2021-10-31 18:18:39,839:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:18:47,544:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:19:22,280:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:19:26,992:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:19:36,694:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:19:37,371:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-31 18:19:42,082:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-31 18:19:46,798:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-31 18:19:51,497:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 162 922" returned: 
+
+2021-10-31 18:19:55,502:DEBUG:Python3:before_run.py returned None
+2021-10-31 18:19:56,260:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p com.google.android.youtube 1" returned: 
+  bash arg: -p
+  bash arg: com.google.android.youtube
+  bash arg: 1
+args: [-p, com.google.android.youtube, 1]
+ arg: "-p"
+ arg: "com.google.android.youtube"
+ arg: "1"
+data="com.google.android.youtube"
+Events injected: 1
+## Network stats: elapsed time=20ms (0ms mobile, 0ms wifi, 20ms not connected)
+
+2021-10-31 18:19:57,348:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:19:57,348:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:19:57,412:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:19:57,483:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:19:57,484:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:19:57,495:INFO:Python3:after_launch.py
+2021-10-31 18:19:57,496:DEBUG:Python3:after_launch.py returned None
+2021-10-31 18:19:57,500:INFO:Profilers:Start profiling
+2021-10-31 18:19:57,562:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:19:57,620:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:19:57,620:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-10-31 18:19:57,725:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-31 18:19:57,802:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:19:57,869:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:19:57,870:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3aee150>,)
+kwargs: {}
+2021-10-31 18:19:57,882:INFO:Python3:interaction.py
+2021-10-31 18:19:57,971:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:19:57,972:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:22:58,072:DEBUG:Python3:interaction.py returned None
+2021-10-31 18:23:48,126:INFO:Profilers:Stop profiling
+2021-10-31 18:23:48,201:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:23:48,265:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:23:48,266:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 18:23:48,354:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:23:48,355:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:23:48,419:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:23:48,476:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:23:48,477:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:23:48,488:INFO:Python3:before_close.py
+2021-10-31 18:23:48,489:DEBUG:Python3:before_close.py returned None
+2021-10-31 18:23:48,636:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop com.google.android.youtube" returned: 
+
+2021-10-31 18:23:51,717:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:23:51,778:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:23:51,779:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:23:51,790:INFO:Python3:after_run.py
+2021-10-31 18:23:52,485:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-10-31 18:23:52,485:DEBUG:Python3:after_run.py returned None
+2021-10-31 18:23:52,489:INFO:Profilers:Collecting results
+2021-10-31 18:23:52,560:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:23:52,621:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:23:52,622:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-10-31 18:23:52,691:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:23:53,131:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-31 18:23:53,325:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-31 18:23:53,443:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 456 used of 512KB, 8 strings using 532):
+                    0 (14) RESET:TIME: 2021-10-31-19-20-01
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=101 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a148:"com.google.android.youtube"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                    0 (2) 100 longwake=u0a148:"AudioMix"
+                +15ms (2) 100 stats=0:"dump"
+             +1s312ms (3) 100 current=30 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +11s336ms (3) 100 current=-240 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +21s359ms (3) 100 current=-233 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +31s374ms (3) 100 current=-226 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +41s401ms (3) 100 current=149 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +43s075ms (2) 100 +job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+            +43s090ms (2) 100 -job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+            +51s419ms (3) 100 current=151 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m01s434ms (3) 100 current=145 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m11s455ms (3) 100 current=143 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m21s475ms (3) 100 current=139 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m31s492ms (3) 100 current=145 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m41s517ms (3) 100 current=-178 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m51s541ms (3) 100 current=-216 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m01s560ms (3) 100 current=-233 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m11s580ms (3) 100 current=-240 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m21s602ms (3) 100 current=-242 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m31s619ms (3) 100 current=-255 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m41s644ms (3) 100 current=-228 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m51s657ms (3) 100 current=-243 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m01s676ms (3) 100 current=-231 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m11s699ms (3) 100 current=-227 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m21s720ms (3) 100 current=-245 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m31s740ms (3) 100 current=-218 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m41s767ms (3) 100 current=-242 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m50s916ms (2) 100 -top=u0a148:"com.google.android.youtube"
+          +3m50s916ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s173ms (2) 100 -longwake=u0a148:"AudioMix"
+          +3m51s785ms (3) 100 current=-264 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m55s726ms (2) 100 stats=0:"dump"
+
+
+2021-10-31 18:23:53,604:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 57.7, actual drain: 0
+
+2021-10-31 18:23:53,726:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=101 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-10-31 18:24:11,085:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-31 18:24:11,128:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-10-31 18:24:16,139:INFO:Profilers:Setting output
+2021-10-31 18:24:16,140:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/data/duo/com-google-android-youtube/batterystats
+2021-10-31 18:24:16,140:INFO:NativeExperiment:Run 3/30 of subject "com.google.android.youtube" on duo
+2021-10-31 18:24:16,254:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-31 18:24:16,254:INFO:NativeExperiment:Logcat cleared
+2021-10-31 18:24:16,312:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:24:16,372:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:24:16,372:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:24:16,384:INFO:Python3:before_run.py
+2021-10-31 18:24:17,260:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:24:24,962:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:24:59,673:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:25:04,383:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:25:14,097:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:25:14,779:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-31 18:25:19,480:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-31 18:25:24,157:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-31 18:25:28,856:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 162 922" returned: 
+
+2021-10-31 18:25:32,862:DEBUG:Python3:before_run.py returned None
+2021-10-31 18:25:33,631:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p com.google.android.youtube 1" returned: 
+  bash arg: -p
+  bash arg: com.google.android.youtube
+  bash arg: 1
+args: [-p, com.google.android.youtube, 1]
+ arg: "-p"
+ arg: "com.google.android.youtube"
+ arg: "1"
+data="com.google.android.youtube"
+Events injected: 1
+## Network stats: elapsed time=20ms (0ms mobile, 0ms wifi, 20ms not connected)
+
+2021-10-31 18:25:34,721:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:25:34,722:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:25:34,778:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:25:34,838:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:25:34,839:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:25:34,851:INFO:Python3:after_launch.py
+2021-10-31 18:25:34,852:DEBUG:Python3:after_launch.py returned None
+2021-10-31 18:25:34,856:INFO:Profilers:Start profiling
+2021-10-31 18:25:34,919:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:25:34,978:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:25:34,979:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-10-31 18:25:35,085:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-31 18:25:35,148:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:25:35,203:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:25:35,203:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3aee150>,)
+kwargs: {}
+2021-10-31 18:25:35,215:INFO:Python3:interaction.py
+2021-10-31 18:25:35,302:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:25:35,303:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:28:35,404:DEBUG:Python3:interaction.py returned None
+2021-10-31 18:29:25,457:INFO:Profilers:Stop profiling
+2021-10-31 18:29:25,534:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:29:25,592:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:29:25,593:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 18:29:25,676:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:29:25,676:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:29:25,741:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:29:25,804:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:29:25,805:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:29:25,816:INFO:Python3:before_close.py
+2021-10-31 18:29:25,818:DEBUG:Python3:before_close.py returned None
+2021-10-31 18:29:25,967:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop com.google.android.youtube" returned: 
+
+2021-10-31 18:29:29,044:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:29:29,109:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:29:29,110:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:29:29,121:INFO:Python3:after_run.py
+2021-10-31 18:29:29,814:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-10-31 18:29:29,815:DEBUG:Python3:after_run.py returned None
+2021-10-31 18:29:29,818:INFO:Profilers:Collecting results
+2021-10-31 18:29:29,885:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:29:29,950:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:29:29,951:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-10-31 18:29:30,016:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:29:30,421:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-31 18:29:30,599:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-31 18:29:30,696:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 456 used of 512KB, 9 strings using 670):
+                    0 (14) RESET:TIME: 2021-10-31-19-25-39
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=141 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a148:"com.google.android.youtube"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                    0 (2) 100 longwake=u0a148:"AudioMix"
+                +13ms (2) 100 stats=0:"dump"
+             +4s616ms (3) 100 current=153 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +14s631ms (3) 100 current=158 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +24s648ms (3) 100 current=154 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +34s669ms (3) 100 current=155 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +43s153ms (2) 100 +job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+            +43s167ms (2) 100 -job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+            +44s688ms (3) 100 current=148 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +54s710ms (3) 100 current=147 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m04s729ms (3) 100 current=144 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m14s745ms (3) 100 current=133 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m24s760ms (3) 100 current=147 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m34s777ms (3) 100 current=118 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m44s795ms (3) 100 current=-169 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m54s812ms (3) 100 current=-242 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m04s829ms (3) 100 current=-228 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m14s846ms (3) 100 current=-236 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m28s562ms (2) 100 +tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+          +2m34s879ms (3) 100 current=-231 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m38s573ms (2) 100 -tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+          +2m44s899ms (3) 100 current=-236 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m54s915ms (3) 100 current=-233 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m04s932ms (3) 100 current=-236 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m14s959ms (3) 100 current=140 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m24s977ms (3) 100 current=212 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m34s992ms (3) 100 current=200 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m45s012ms (3) 100 current=181 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m50s884ms (2) 100 -top=u0a148:"com.google.android.youtube"
+          +3m50s884ms (2) 100 +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s163ms (3) 100 -audio -longwake=u0a148:"AudioMix"
+          +3m55s032ms (4) 100 current=166 ap_temp=30 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0 stats=0:"dump"
+
+
+2021-10-31 18:29:30,853:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 58.4, actual drain: 0
+
+2021-10-31 18:29:30,981:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=141 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-10-31 18:29:47,837:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-31 18:29:47,881:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-10-31 18:29:52,893:INFO:Profilers:Setting output
+2021-10-31 18:29:52,893:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/data/duo/com-google-android-youtube/batterystats
+2021-10-31 18:29:52,893:INFO:NativeExperiment:Run 4/30 of subject "com.google.android.youtube" on duo
+2021-10-31 18:29:52,996:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-31 18:29:52,996:INFO:NativeExperiment:Logcat cleared
+2021-10-31 18:29:53,058:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:29:53,115:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:29:53,115:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:29:53,127:INFO:Python3:before_run.py
+2021-10-31 18:29:54,030:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:30:01,750:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:30:36,487:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:30:41,207:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:30:50,915:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:30:51,593:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-31 18:30:56,298:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-31 18:31:00,977:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-31 18:31:05,654:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 162 922" returned: 
+
+2021-10-31 18:31:09,660:DEBUG:Python3:before_run.py returned None
+2021-10-31 18:31:10,410:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p com.google.android.youtube 1" returned: 
+  bash arg: -p
+  bash arg: com.google.android.youtube
+  bash arg: 1
+args: [-p, com.google.android.youtube, 1]
+ arg: "-p"
+ arg: "com.google.android.youtube"
+ arg: "1"
+data="com.google.android.youtube"
+Events injected: 1
+## Network stats: elapsed time=15ms (0ms mobile, 0ms wifi, 15ms not connected)
+
+2021-10-31 18:31:11,500:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:31:11,501:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:31:11,560:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:31:11,621:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:31:11,621:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:31:11,632:INFO:Python3:after_launch.py
+2021-10-31 18:31:11,634:DEBUG:Python3:after_launch.py returned None
+2021-10-31 18:31:11,638:INFO:Profilers:Start profiling
+2021-10-31 18:31:11,705:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:31:11,766:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:31:11,767:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-10-31 18:31:11,865:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-31 18:31:11,946:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:31:12,011:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:31:12,011:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3aee150>,)
+kwargs: {}
+2021-10-31 18:31:12,023:INFO:Python3:interaction.py
+2021-10-31 18:31:12,098:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:31:12,099:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:34:12,189:DEBUG:Python3:interaction.py returned None
+2021-10-31 18:35:02,242:INFO:Profilers:Stop profiling
+2021-10-31 18:35:02,305:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:35:02,361:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:35:02,361:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 18:35:02,434:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:35:02,435:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:35:02,492:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:35:02,553:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:35:02,554:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:35:02,565:INFO:Python3:before_close.py
+2021-10-31 18:35:02,567:DEBUG:Python3:before_close.py returned None
+2021-10-31 18:35:02,712:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop com.google.android.youtube" returned: 
+
+2021-10-31 18:35:05,777:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:35:05,840:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:35:05,841:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:35:05,852:INFO:Python3:after_run.py
+2021-10-31 18:35:06,518:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-10-31 18:35:06,519:DEBUG:Python3:after_run.py returned None
+2021-10-31 18:35:06,522:INFO:Profilers:Collecting results
+2021-10-31 18:35:06,591:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:35:06,650:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:35:06,651:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-10-31 18:35:06,708:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:35:07,116:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-31 18:35:07,295:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-31 18:35:07,385:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 484 used of 512KB, 9 strings using 716):
+                    0 (14) RESET:TIME: 2021-10-31-19-31-15
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=111 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a148:"com.google.android.youtube"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                    0 (2) 100 longwake=u0a148:"AudioMix"
+                +16ms (2) 100 stats=0:"dump"
+             +8s478ms (3) 100 current=134 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +18s495ms (3) 100 current=-196 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +28s512ms (3) 100 current=-253 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +38s534ms (3) 100 current=-225 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +48s548ms (3) 100 current=-254 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+            +53s863ms (2) 100 phone_signal_strength=good
+            +58s571ms (3) 100 current=-226 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m08s584ms (3) 100 current=-228 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m18s605ms (3) 100 current=-239 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m28s624ms (3) 100 current=-228 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m38s644ms (3) 100 current=-224 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m48s659ms (3) 100 current=-230 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m53s809ms (2) 100 +job=u0a114:"com.google.android.gm/com.android.mail.job.NotifyDatasetChangedJob$NotifyDatasetChangedJobService"
+          +1m53s825ms (2) 100 +job=u0a114:"com.google.android.gm/.job.ProviderCreatedJob$ProviderCreatedJobService"
+          +1m53s844ms (2) 100 -job=u0a114:"com.google.android.gm/.job.ProviderCreatedJob$ProviderCreatedJobService"
+          +1m53s846ms (2) 100 -job=u0a114:"com.google.android.gm/com.android.mail.job.NotifyDatasetChangedJob$NotifyDatasetChangedJobService"
+          +1m53s852ms (2) 100 +job=u0a114:"com.google.android.gm/com.android.mail.job.NotifyDatasetChangedJob$NotifyDatasetChangedJobService"
+          +1m53s862ms (2) 100 -job=u0a114:"com.google.android.gm/com.android.mail.job.NotifyDatasetChangedJob$NotifyDatasetChangedJobService"
+          +1m58s680ms (3) 100 current=-254 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m08s699ms (3) 100 current=-227 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m18s720ms (3) 100 current=183 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m28s747ms (3) 100 current=234 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m38s770ms (3) 100 current=201 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m48s788ms (3) 100 current=199 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m58s811ms (3) 100 current=186 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m08s831ms (3) 100 current=175 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m18s851ms (3) 100 current=171 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m28s871ms (3) 100 current=168 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m38s891ms (3) 100 current=157 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m48s911ms (3) 100 current=164 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m50s850ms (2) 100 -top=u0a148:"com.google.android.youtube"
+          +3m50s850ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s125ms (2) 100 -longwake=u0a148:"AudioMix"
+          +3m55s534ms (2) 100 stats=0:"dump"
+
+
+2021-10-31 18:35:07,524:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 60.0, actual drain: 0
+
+2021-10-31 18:35:07,618:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=111 ap_temp=31 pst_temp=30 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-10-31 18:35:24,744:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-31 18:35:24,788:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-10-31 18:35:29,799:INFO:Profilers:Setting output
+2021-10-31 18:35:29,799:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/data/duo/com-google-android-youtube/batterystats
+2021-10-31 18:35:29,800:INFO:NativeExperiment:Run 5/30 of subject "com.google.android.youtube" on duo
+2021-10-31 18:35:29,906:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-31 18:35:29,907:INFO:NativeExperiment:Logcat cleared
+2021-10-31 18:35:29,974:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:35:30,068:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:35:30,068:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:35:30,081:INFO:Python3:before_run.py
+2021-10-31 18:35:30,994:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:35:38,781:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:36:13,521:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:36:18,214:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:36:27,906:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:36:28,594:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-31 18:36:33,304:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-31 18:36:38,002:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-31 18:36:42,706:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 162 922" returned: 
+
+2021-10-31 18:36:46,712:DEBUG:Python3:before_run.py returned None
+2021-10-31 18:36:47,472:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p com.google.android.youtube 1" returned: 
+  bash arg: -p
+  bash arg: com.google.android.youtube
+  bash arg: 1
+args: [-p, com.google.android.youtube, 1]
+ arg: "-p"
+ arg: "com.google.android.youtube"
+ arg: "1"
+data="com.google.android.youtube"
+Events injected: 1
+## Network stats: elapsed time=19ms (0ms mobile, 0ms wifi, 19ms not connected)
+
+2021-10-31 18:36:48,556:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:36:48,556:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:36:48,611:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:36:48,665:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:36:48,666:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:36:48,678:INFO:Python3:after_launch.py
+2021-10-31 18:36:48,679:DEBUG:Python3:after_launch.py returned None
+2021-10-31 18:36:48,683:INFO:Profilers:Start profiling
+2021-10-31 18:36:48,740:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:36:48,795:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:36:48,796:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-10-31 18:36:48,896:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-31 18:36:48,976:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:36:49,040:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:36:49,041:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3aee150>,)
+kwargs: {}
+2021-10-31 18:36:49,053:INFO:Python3:interaction.py
+2021-10-31 18:36:49,141:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:36:49,141:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:39:49,242:DEBUG:Python3:interaction.py returned None
+2021-10-31 18:40:39,295:INFO:Profilers:Stop profiling
+2021-10-31 18:40:39,366:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:40:39,430:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:40:39,430:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 18:40:39,522:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:40:39,523:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:40:39,585:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:40:39,652:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:40:39,653:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:40:39,665:INFO:Python3:before_close.py
+2021-10-31 18:40:39,666:DEBUG:Python3:before_close.py returned None
+2021-10-31 18:40:39,834:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop com.google.android.youtube" returned: 
+
+2021-10-31 18:40:42,910:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:40:42,969:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:40:42,970:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:40:42,981:INFO:Python3:after_run.py
+2021-10-31 18:40:43,671:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-10-31 18:40:43,671:DEBUG:Python3:after_run.py returned None
+2021-10-31 18:40:43,675:INFO:Profilers:Collecting results
+2021-10-31 18:40:43,742:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:40:43,811:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:40:43,812:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-10-31 18:40:43,869:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:40:44,307:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-31 18:40:44,505:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-31 18:40:44,615:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 600 used of 512KB, 15 strings using 1702):
+                    0 (14) RESET:TIME: 2021-10-31-19-36-52
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=-275 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=good +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a148:"com.google.android.youtube"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                    0 (2) 100 longwake=u0a148:"AudioMix"
+                +14ms (2) 100 stats=0:"dump"
+             +2s062ms (3) 100 current=-317 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+            +12s081ms (3) 100 current=-237 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+            +22s096ms (3) 100 current=-226 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+            +32s110ms (3) 100 current=-223 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+            +42s181ms (3) 100 current=-250 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+            +52s194ms (3) 100 current=209 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m02s206ms (3) 100 current=225 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m12s219ms (3) 100 current=204 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m22s235ms (3) 100 current=180 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m32s249ms (3) 100 current=184 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m42s264ms (3) 100 current=176 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m52s279ms (3) 100 current=167 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m02s293ms (3) 100 current=159 ap_temp=31 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m07s029ms (2) 100 +job=u0a44:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +2m09s334ms (2) 100 +job=u0a44:"com.android.vending/com.google.android.finsky.instantapps.statussync.EnabledStatusSyncService"
+          +2m09s374ms (2) 100 +fg=u0a44:"com.android.vending"
+          +2m09s630ms (2) 100 +job=u0a44:"com.android.vending/com.google.android.finsky.instantapps.dna.ArchivePrefetchService"
+          +2m09s740ms (2) 100 +job=u0a44:"com.android.vending/com.google.android.finsky.instantapps.PhenotypeUpdateService"
+          +2m09s756ms (2) 100 -job=u0a44:"com.android.vending/com.google.android.finsky.instantapps.dna.ArchivePrefetchService"
+          +2m09s779ms (2) 100 -job=u0a44:"com.android.vending/com.google.android.finsky.instantapps.statussync.EnabledStatusSyncService"
+          +2m09s871ms (2) 100 -job=u0a44:"com.android.vending/com.google.android.finsky.instantapps.PhenotypeUpdateService"
+          +2m09s930ms (2) 100 -fg=u0a44:"com.android.vending"
+          +2m09s944ms (2) 100 +job=u0a44:"com.android.vending/com.google.android.finsky.instantapps.hint.AppPreloadHygieneService"
+          +2m09s954ms (2) 100 -job=u0a44:"com.android.vending/com.google.android.finsky.instantapps.hint.AppPreloadHygieneService"
+          +2m10s293ms (2) 100 +job=u0a76:"com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService"
+          +2m10s560ms (2) 100 -job=u0a76:"com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService"
+          +2m12s308ms (3) 100 current=30 ap_temp=33 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m19s872ms (2) 100 -job=u0a44:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +2m20s283ms (2) 100 +tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+          +2m22s323ms (3) 100 current=-198 ap_temp=33 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m30s295ms (2) 100 -tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+          +2m32s338ms (3) 100 current=-232 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m37s309ms (2) 100 +job=u0a44:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +2m37s619ms (2) 100 -job=u0a44:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +2m42s355ms (3) 100 current=-227 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m52s377ms (3) 100 current=-223 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m02s391ms (3) 100 current=-228 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m08s844ms (2) 100 +job=u0a44:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +3m10s831ms (2) 100 -job=u0a44:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +3m12s408ms (3) 100 current=-292 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m22s427ms (3) 100 current=99 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m32s441ms (3) 100 current=224 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m42s454ms (3) 100 current=207 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m50s942ms (2) 100 -top=u0a148:"com.google.android.youtube"
+          +3m50s942ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s183ms (2) 100 -longwake=u0a148:"AudioMix"
+          +3m52s471ms (3) 100 current=171 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m55s727ms (2) 100 stats=0:"dump"
+
+
+2021-10-31 18:40:44,785:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 61.2, actual drain: 0
+
+2021-10-31 18:40:44,912:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=-275 ap_temp=32 pst_temp=31 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=good +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-10-31 18:41:03,359:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-31 18:41:03,404:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-10-31 18:41:08,415:INFO:Profilers:Setting output
+2021-10-31 18:41:08,415:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/data/duo/com-google-android-youtube/batterystats
+2021-10-31 18:41:08,416:INFO:NativeExperiment:Run 6/30 of subject "com.google.android.youtube" on duo
+2021-10-31 18:41:08,522:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-31 18:41:08,522:INFO:NativeExperiment:Logcat cleared
+2021-10-31 18:41:08,579:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:41:08,638:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:41:08,639:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:41:08,650:INFO:Python3:before_run.py
+2021-10-31 18:41:09,537:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:41:17,238:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:41:51,968:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:41:56,654:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:42:06,381:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:42:07,067:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-31 18:42:11,792:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-31 18:42:16,534:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-31 18:42:21,218:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 162 922" returned: 
+
+2021-10-31 18:42:25,224:DEBUG:Python3:before_run.py returned None
+2021-10-31 18:42:25,982:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p com.google.android.youtube 1" returned: 
+  bash arg: -p
+  bash arg: com.google.android.youtube
+  bash arg: 1
+args: [-p, com.google.android.youtube, 1]
+ arg: "-p"
+ arg: "com.google.android.youtube"
+ arg: "1"
+data="com.google.android.youtube"
+Events injected: 1
+## Network stats: elapsed time=19ms (0ms mobile, 0ms wifi, 19ms not connected)
+
+2021-10-31 18:42:27,067:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:42:27,067:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:42:27,125:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:42:27,185:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:42:27,186:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:42:27,198:INFO:Python3:after_launch.py
+2021-10-31 18:42:27,199:DEBUG:Python3:after_launch.py returned None
+2021-10-31 18:42:27,203:INFO:Profilers:Start profiling
+2021-10-31 18:42:27,274:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:42:27,339:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:42:27,340:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-10-31 18:42:27,451:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-31 18:42:27,526:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:42:27,586:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:42:27,587:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3aee150>,)
+kwargs: {}
+2021-10-31 18:42:27,600:INFO:Python3:interaction.py
+2021-10-31 18:42:27,680:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:42:27,681:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:45:27,781:DEBUG:Python3:interaction.py returned None
+2021-10-31 18:46:17,823:INFO:Profilers:Stop profiling
+2021-10-31 18:46:17,897:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:46:17,960:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:46:17,961:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 18:46:18,040:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:46:18,041:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:46:18,100:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:46:18,156:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:46:18,157:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:46:18,168:INFO:Python3:before_close.py
+2021-10-31 18:46:18,170:DEBUG:Python3:before_close.py returned None
+2021-10-31 18:46:18,337:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop com.google.android.youtube" returned: 
+
+2021-10-31 18:46:21,412:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:46:21,471:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:46:21,471:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:46:21,483:INFO:Python3:after_run.py
+2021-10-31 18:46:22,151:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-10-31 18:46:22,152:DEBUG:Python3:after_run.py returned None
+2021-10-31 18:46:22,155:INFO:Profilers:Collecting results
+2021-10-31 18:46:22,221:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:46:22,284:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:46:22,285:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-10-31 18:46:22,355:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:46:22,759:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-31 18:46:22,941:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-31 18:46:23,043:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 444 used of 512KB, 8 strings using 564):
+                    0 (14) RESET:TIME: 2021-10-31-19-42-31
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=137 ap_temp=33 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=good +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a148:"com.google.android.youtube"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                    0 (2) 100 longwake=u0a148:"AudioMix"
+                +13ms (2) 100 stats=0:"dump"
+             +4s128ms (3) 100 current=144 ap_temp=33 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+            +14s144ms (3) 100 current=136 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+            +24s159ms (3) 100 current=134 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+            +44s192ms (3) 100 current=132 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+            +54s209ms (3) 100 current=-153 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m04s227ms (3) 100 current=-225 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m14s241ms (3) 100 current=-224 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m24s254ms (3) 100 current=-229 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m34s271ms (3) 100 current=-238 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m44s285ms (3) 100 current=-228 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m54s300ms (3) 100 current=-222 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m04s318ms (3) 100 current=-230 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m14s333ms (3) 100 current=-225 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m24s348ms (3) 100 current=-221 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m34s363ms (3) 100 current=-222 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m44s268ms (2) 100 +job=u0a76:"com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService"
+          +2m44s285ms (2) 100 -job=u0a76:"com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService"
+          +2m44s378ms (3) 100 current=-229 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m54s395ms (3) 100 current=116 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m04s415ms (3) 100 current=205 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m14s434ms (3) 100 current=213 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m24s448ms (3) 100 current=207 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m34s464ms (3) 100 current=182 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m44s480ms (3) 100 current=185 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m50s888ms (2) 100 -top=u0a148:"com.google.android.youtube"
+          +3m50s889ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s136ms (2) 100 -longwake=u0a148:"AudioMix"
+          +3m54s497ms (3) 100 current=160 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m55s602ms (2) 100 stats=0:"dump"
+
+
+2021-10-31 18:46:23,192:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 44.7, actual drain: 0
+
+2021-10-31 18:46:23,316:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=137 ap_temp=33 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=good +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-10-31 18:46:40,400:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-31 18:46:40,446:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-10-31 18:46:45,455:INFO:Profilers:Setting output
+2021-10-31 18:46:45,456:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/data/duo/com-google-android-youtube/batterystats
+2021-10-31 18:46:45,456:INFO:NativeExperiment:Run 7/30 of subject "com.google.android.youtube" on duo
+2021-10-31 18:46:45,561:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-31 18:46:45,561:INFO:NativeExperiment:Logcat cleared
+2021-10-31 18:46:45,620:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:46:45,680:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:46:45,681:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:46:45,693:INFO:Python3:before_run.py
+2021-10-31 18:46:46,578:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:46:54,282:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:47:29,039:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:47:33,794:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:47:43,502:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:47:44,178:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-31 18:47:48,892:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-31 18:47:53,597:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-31 18:47:58,279:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 162 922" returned: 
+
+2021-10-31 18:48:02,284:DEBUG:Python3:before_run.py returned None
+2021-10-31 18:48:03,046:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p com.google.android.youtube 1" returned: 
+  bash arg: -p
+  bash arg: com.google.android.youtube
+  bash arg: 1
+args: [-p, com.google.android.youtube, 1]
+ arg: "-p"
+ arg: "com.google.android.youtube"
+ arg: "1"
+data="com.google.android.youtube"
+Events injected: 1
+## Network stats: elapsed time=16ms (0ms mobile, 0ms wifi, 16ms not connected)
+
+2021-10-31 18:48:04,133:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:48:04,134:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:48:04,196:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:48:04,255:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:48:04,256:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:48:04,267:INFO:Python3:after_launch.py
+2021-10-31 18:48:04,269:DEBUG:Python3:after_launch.py returned None
+2021-10-31 18:48:04,273:INFO:Profilers:Start profiling
+2021-10-31 18:48:04,343:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:48:04,399:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:48:04,400:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-10-31 18:48:04,501:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-31 18:48:04,578:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:48:04,635:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:48:04,636:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3aee150>,)
+kwargs: {}
+2021-10-31 18:48:04,648:INFO:Python3:interaction.py
+2021-10-31 18:48:04,716:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:48:04,717:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:51:04,769:DEBUG:Python3:interaction.py returned None
+2021-10-31 18:51:54,822:INFO:Profilers:Stop profiling
+2021-10-31 18:51:54,901:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:51:54,963:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:51:54,964:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 18:51:55,042:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:51:55,042:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:51:55,098:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:51:55,159:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:51:55,160:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:51:55,171:INFO:Python3:before_close.py
+2021-10-31 18:51:55,172:DEBUG:Python3:before_close.py returned None
+2021-10-31 18:51:55,330:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop com.google.android.youtube" returned: 
+
+2021-10-31 18:51:58,392:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:51:58,450:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:51:58,451:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:51:58,462:INFO:Python3:after_run.py
+2021-10-31 18:51:59,134:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-10-31 18:51:59,134:DEBUG:Python3:after_run.py returned None
+2021-10-31 18:51:59,137:INFO:Profilers:Collecting results
+2021-10-31 18:51:59,209:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:51:59,271:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:51:59,271:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-10-31 18:51:59,333:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:51:59,749:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-31 18:51:59,922:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-31 18:52:00,027:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 460 used of 512KB, 9 strings using 694):
+                    0 (14) RESET:TIME: 2021-10-31-19-48-08
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=140 ap_temp=33 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=good +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a148:"com.google.android.youtube"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +20ms (2) 100 stats=0:"dump"
+             +7s634ms (3) 100 current=127 ap_temp=33 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+             +8s965ms (2) 100 +tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+            +17s656ms (3) 100 current=136 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+            +18s977ms (2) 100 -tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+            +24s779ms (2) 100 +longwake=u0a148:"AudioMix"
+            +27s671ms (3) 100 current=-186 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+            +37s684ms (3) 100 current=-220 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+            +47s703ms (3) 100 current=-239 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+            +53s246ms (2) 100 +job=u0a44:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+            +53s418ms (2) 100 -job=u0a44:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+            +57s722ms (3) 100 current=-224 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m07s736ms (3) 100 current=-245 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m17s758ms (3) 100 current=-241 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m27s778ms (3) 100 current=-220 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m37s791ms (3) 100 current=-231 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m47s817ms (3) 100 current=-225 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +1m57s837ms (3) 100 current=-230 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m07s850ms (3) 100 current=-226 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m17s870ms (3) 100 current=-222 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m27s891ms (3) 100 current=-245 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m37s909ms (3) 100 current=-238 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m47s929ms (3) 100 current=-245 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +2m57s949ms (3) 100 current=104 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m07s967ms (3) 100 current=218 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m17s988ms (3) 100 current=216 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m28s008ms (3) 100 current=200 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m38s024ms (3) 100 current=201 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m48s045ms (3) 100 current=189 ap_temp=32 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0
+          +3m50s836ms (2) 100 -top=u0a148:"com.google.android.youtube"
+          +3m50s836ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s085ms (2) 100 -longwake=u0a148:"AudioMix"
+          +3m55s541ms (2) 100 stats=0:"dump"
+
+
+2021-10-31 18:52:00,184:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 60.3, actual drain: 0
+
+2021-10-31 18:52:00,310:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=254 volt=4318 current=140 ap_temp=33 pst_temp=32 bat_temp=25 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=good +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-10-31 18:52:17,694:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-31 18:52:17,738:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-10-31 18:52:22,749:INFO:Profilers:Setting output
+2021-10-31 18:52:22,750:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/data/duo/com-google-android-youtube/batterystats
+2021-10-31 18:52:22,750:INFO:NativeExperiment:Run 8/30 of subject "com.google.android.youtube" on duo
+2021-10-31 18:52:22,856:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-10-31 18:52:22,857:INFO:NativeExperiment:Logcat cleared
+2021-10-31 18:52:22,920:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:52:22,988:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:52:22,989:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-10-31 18:52:23,001:INFO:Python3:before_run.py
+2021-10-31 18:52:23,895:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:52:31,607:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:53:06,334:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 627 354" returned: 
+
+2021-10-31 18:53:11,030:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:53:20,756:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 348 226" returned: 
+
+2021-10-31 18:53:21,436:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 712 96" returned: 
+
+2021-10-31 18:53:26,142:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 155 810" returned: 
+
+2021-10-31 18:53:30,847:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 186 1069" returned: 
+
+2021-10-31 18:53:35,559:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 162 922" returned: 
+
+2021-10-31 18:53:39,564:DEBUG:Python3:before_run.py returned None
+2021-10-31 18:53:40,328:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p com.google.android.youtube 1" returned: 
+  bash arg: -p
+  bash arg: com.google.android.youtube
+  bash arg: 1
+args: [-p, com.google.android.youtube, 1]
+ arg: "-p"
+ arg: "com.google.android.youtube"
+ arg: "1"
+data="com.google.android.youtube"
+Events injected: 1
+## Network stats: elapsed time=18ms (0ms mobile, 0ms wifi, 18ms not connected)
+
+2021-10-31 18:53:41,417:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:53:41,418:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:53:41,473:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:53:41,530:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:53:41,531:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'com.google.android.youtube')
+kwargs: {}
+2021-10-31 18:53:41,542:INFO:Python3:after_launch.py
+2021-10-31 18:53:41,543:DEBUG:Python3:after_launch.py returned None
+2021-10-31 18:53:41,547:INFO:Profilers:Start profiling
+2021-10-31 18:53:41,606:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:53:41,663:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:53:41,664:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-10-31 18:53:41,760:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-31 18:53:41,841:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:53:41,902:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:53:41,903:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3aee150>,)
+kwargs: {}
+2021-10-31 18:53:41,915:INFO:Python3:interaction.py
+2021-10-31 18:53:41,990:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.google.android.youtube
+
+
+2021-10-31 18:53:41,990:DEBUG:Device:Current activity: com.google.android.youtube
+2021-10-31 18:55:50,655:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys battery reset" returned: 
+
+2021-10-31 18:55:50,656:INFO:Profilers:Stop profiling
+2021-10-31 18:55:50,717:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:55:50,783:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:55:50,783:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-10-31 18:55:50,783:INFO:Profilers:Unloading
+2021-10-31 18:55:50,878:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-10-31 18:55:50,953:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-10-31 18:55:50,954:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Cleanup
+2021-10-31 18:55:51,777:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "pm list packages" returned: 
+package:com.samsung.android.provider.filterprovider
+package:com.monotype.android.font.rosemary
+package:com.sec.android.app.DataCreate
+package:com.android.cts.priv.ctsshim
+package:com.gd.mobicore.pa
+package:com.sec.android.widgetapp.samsungapps
+package:com.google.android.youtube
+package:com.samsung.android.app.galaxyfinder
+package:com.sec.location.nsflp2
+package:stericson.busybox
+package:com.samsung.android.themestore
+package:com.sec.android.app.chromecustomizations
+package:com.google.android.ext.services
+package:com.android.providers.telephony
+package:com.sec.android.app.parser
+package:com.samsung.android.applock
+package:com.google.android.googlequicksearchbox
+package:com.samsung.android.calendar
+package:com.android.providers.calendar
+package:com.osp.app.signin
+package:com.samsung.clipboardsaveservice
+package:com.sec.automation
+package:com.android.providers.media
+package:com.google.android.onetimeinitializer
+package:com.sec.android.mimage.gear360editor
+package:com.google.android.ext.shared
+package:com.android.wallpapercropper
+package:com.samsung.android.provider.shootingmodeprovider
+package:com.samsung.android.wallpaper.res
+package:com.samsung.android.app.withtv
+package:com.samsung.android.smartmirroring
+package:com.skms.android.agent
+package:com.sec.android.app.safetyassurance
+package:com.samsung.android.incallui
+package:com.samsung.android.knox.containercore
+package:com.sec.factory.camera
+package:com.sec.vsimservice
+package:org.simalliance.openmobileapi.service
+package:com.sec.usbsettings
+package:com.samsung.android.easysetup
+package:com.android.documentsui
+package:android.auto_generated_rro__
+package:com.android.externalstorage
+package:com.sec.android.easyonehand
+package:com.sec.android.app.camerabokehservice
+package:com.sec.factory
+package:com.samsung.android.provider.stickerprovider
+package:com.android.htmlviewer
+package:com.android.companiondevicemanager
+package:com.android.mms.service
+package:com.samsung.android.rubin.app
+package:com.sec.android.wallpapercropper2
+package:com.android.providers.downloads
+package:com.diotek.sec.lookup.dictionary
+package:com.sec.android.easyMover.Agent
+package:com.samsung.ucs.agent.boot
+package:com.wsomacp
+package:com.samsung.faceservice
+package:com.monotype.android.font.foundation
+package:com.sec.android.widgetapp.easymodecontactswidget
+package:com.samsung.android.MtpApplication
+package:com.sec.android.app.factorykeystring
+package:com.sec.android.app.samsungapps
+package:com.sec.android.emergencymode.service
+package:com.google.android.configupdater
+package:com.sec.android.app.wlantest
+package:com.microsoft.office.excel
+package:com.samsung.android.app.camera.sticker.facear.preload
+package:com.sec.android.app.billing
+package:com.sec.epdgtestapp
+package:com.samsung.android.game.gamehome
+package:com.android.defcontainer
+package:com.sec.android.daemonapp
+package:com.sec.ims
+package:com.sec.sve
+package:com.sec.enterprise.knox.attestation
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.dsi.ant.service.socket
+package:com.sec.android.AutoPreconfig
+package:com.microsoft.skydrive
+package:com.samsung.android.SettingsReceiver
+package:com.sec.android.app.soundalive
+package:com.sec.android.providers.security
+package:com.sec.android.provider.badge
+package:com.android.certinstaller
+package:com.samsung.android.securitylogagent
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:com.samsung.android.knox.containeragent
+package:com.samsung.android.app.assistantmenu
+package:com.samsung.SMT
+package:com.samsung.cmh
+package:com.samsung.mlp
+package:com.samsung.knox.securefolder.setuppage
+package:com.sec.factory.iris.usercamera
+package:android
+package:com.samsung.knox.keychain
+package:com.samsung.android.app.multiwindow
+package:com.samsung.android.sm.devicesecurity
+package:com.dsi.ant.sample.acquirechannels
+package:com.android.egg
+package:com.android.mtp
+package:com.android.stk
+package:com.samsung.android.messaging
+package:com.android.backupconfirm
+package:com.samsung.klmsagent
+package:com.sec.android.app.SecSetupWizard
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.sec.android.app.hwmoduletest
+package:com.sec.bcservice
+package:com.sec.modem.settings
+package:com.sec.android.app.sysscope
+package:com.samsung.android.providers.context
+package:com.sec.android.app.servicemodeapp
+package:com.sec.android.preloadinstaller
+package:com.sec.android.uibcvirtualsoftkey
+package:com.google.android.setupwizard
+package:com.samsung.android.sdk.professionalaudio.utility.jammonitor
+package:com.sec.android.gallery3d
+package:com.android.providers.settings
+package:com.sec.imsservice
+package:com.android.sharedstoragebackup
+package:com.facebook.services
+package:com.samsung.android.mobileservice
+package:com.android.printspooler
+package:com.samsung.storyservice
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.samsung.knox.securefolder
+package:com.android.bips
+package:com.android.stk2
+package:com.samsung.android.game.gametools
+package:com.kingoapp.apk
+package:com.samsung.android.app.simplesharing
+package:com.samsung.android.da.daagent
+package:com.samsung.android.app.reminder
+package:com.samsung.android.timezone.autoupdate_O
+package:com.samsung.android.smartcallprovider
+package:com.google.android.apps.maps
+package:com.sec.enterprise.mdm.vpn
+package:com.dsi.ant.plugins.antplus
+package:com.microsoft.office.word
+package:com.samsung.advp.imssettings
+package:com.samsung.android.location
+package:com.sec.android.inputmethod
+package:com.sec.android.app.clockpackage
+package:com.sec.android.RilServiceModeApp
+package:com.google.android.webview
+package:com.sec.android.app.simsettingmgr
+package:com.microsoft.office.powerpoint
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.samsung.crane
+package:com.sec.imslogger
+package:com.samsung.android.clipboarduiservice
+package:com.android.keychain
+package:com.android.chrome
+package:com.samsung.android.themecenter
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tts
+package:android.autoinstalls.config.samsung
+package:com.android.calllogbackup
+package:com.google.android.partnersetup
+package:com.sec.android.diagmonagent
+package:com.sec.spp.push
+package:com.android.carrierdefaultapp
+package:com.dsi.ant.server
+package:com.sec.android.app.myfiles
+package:com.android.proxyhandler
+package:com.samsung.android.allshare.service.fileshare
+package:com.sec.android.mimage.photoretouching
+package:com.sec.android.app.launcher
+package:flipboard.boxer.app
+package:com.google.android.feedback
+package:com.google.android.printservice.recommendation
+package:com.google.android.syncadapters.calendar
+package:com.android.managedprovisioning
+package:com.samsung.android.authfw
+package:com.monotype.android.font.chococooky
+package:com.android.dreams.phototable
+package:com.sec.android.service.health
+package:com.samsung.safetyinformation
+package:com.facebook.katana
+package:com.samsung.android.dqagent
+package:com.sec.android.app.ringtoneBR
+package:com.android.providers.partnerbookmarks
+package:com.samsung.android.app.accesscontrol
+package:com.android.wallpaper.livepicker
+package:com.samsung.android.beaconmanager
+package:com.sec.enterprise.mdm.services.simpin
+package:com.samsung.networkui
+package:com.samsung.android.stickercenter
+package:com.facebook.system
+package:com.sec.android.soagent
+package:com.samsung.android.fmm
+package:com.samsung.android.mdm
+package:com.samsung.android.rlc
+package:com.sec.phone
+package:com.google.android.backuptransport
+package:com.samsung.android.samsungpass
+package:com.android.storagemanager
+package:com.samsung.android.scloud
+package:com.samsung.android.app.soundpicker
+package:com.sec.app.RilErrorNotifier
+package:com.android.bookmarkprovider
+package:com.linkedin.android
+package:com.android.settings
+package:com.samsung.app.newtrim
+package:com.samsung.android.app.color
+package:com.samsung.android.lool
+package:com.sec.android.app.bluetoothtest
+package:com.samsung.android.app.spage
+package:com.egorovandreyrm.pcapremote
+package:com.sec.android.emergencylauncher
+package:com.sec.hearingadjust
+package:com.samsung.android.dlp.service
+package:com.samsung.android.bbc.bbcagent
+package:com.knox.vpn.proxyhandler
+package:com.android.cts.ctsshim
+package:com.samsung.android.stickerplugin
+package:com.sec.android.splitsound
+package:com.wssnps
+package:com.samsung.android.app.watchmanagerstub
+package:com.samsung.android.svcagent
+package:com.policydm
+package:com.samsung.android.sdk.professionalaudio.app.audioconnectionservice
+package:com.enhance.gameservice
+package:com.samsung.android.shortcutbackupservice
+package:com.android.vpndialogs
+package:com.samsung.android.providers.contacts
+package:com.samsung.dcmservice
+package:com.android.phone
+package:com.android.shell
+package:com.android.wallpaperbackup
+package:com.android.providers.blockednumber
+package:com.samsung.android.app.omcagent
+package:com.hiya.star
+package:com.android.providers.userdictionary
+package:com.sec.enterprise.knox.cloudmdm.smdms
+package:com.samsung.android.app.camera.sticker.stamp.preload
+package:com.android.emergency
+package:com.wssyncmldm
+package:com.android.location.fused
+package:com.samsung.android.samsungpassautofill
+package:com.sec.epdg
+package:com.android.systemui
+package:com.sec.android.app.personalization
+package:com.monotype.android.font.cooljazz
+package:com.android.bluetoothmidiservice
+package:com.samsung.android.sdk.handwriting
+package:com.facebook.appmanager
+package:com.samsung.android.app.clockpack
+package:com.quicinc.trepn
+package:com.samsung.aasaservice
+package:com.samsung.android.allshare.service.mediashare
+package:com.sec.android.app.fm
+package:com.sec.android.provider.emergencymode
+package:com.samsung.android.fingerprint.service
+package:com.sec.android.app.camera
+package:com.android.bluetooth
+package:com.samsung.android.contacts
+package:com.sec.android.app.magnifier
+package:com.sec.android.widgetapp.webmanual
+package:com.samsung.sec.android.application.csc
+package:com.android.captiveportallogin
+package:com.samsung.upsmtheme
+package:com.samsung.android.coreapps
+package:com.samsung.android.app.dofviewer
+package:com.samsung.android.bio.face.service
+package:com.samsung.android.video
+
+2021-10-31 18:55:51,778:ERROR:root:Experiment stopped by user. To continue, add progress file argument to experiment startup: --progress /media/external/android-runner/examples/VideoStreaming/output/2021.10.31_181301/progress.xml
