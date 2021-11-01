@@ -1,0 +1,2109 @@
+2021-11-01 11:22:36,757:INFO:ExperimentFactory:/media/external/android-runner/examples/VideoStreaming/config_web.json
+2021-11-01 11:22:36,802:DEBUG:AndroidRunner.Adb:Device list:
+{0: '520045b34a5f357f'}
+2021-11-01 11:22:36,803:INFO:Device:Setting logcat buffer size to 57344K
+2021-11-01 11:22:36,894:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -G 57344K" returned: 
+
+2021-11-01 11:22:36,910:DEBUG:PluginHandler:batterystats: Initialized
+2021-11-01 11:22:36,911:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_experiment.py
+2021-11-01 11:22:36,912:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_run.py
+2021-11-01 11:22:36,912:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_launch.py
+2021-11-01 11:22:36,913:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/interaction.py
+2021-11-01 11:22:36,913:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/before_close.py
+2021-11-01 11:22:36,914:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_run.py
+2021-11-01 11:22:36,914:DEBUG:Python3:Imported /media/external/android-runner/examples/VideoStreaming/Scripts/after_experiment.py
+2021-11-01 11:22:37,019:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:22:37,081:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:22:37,082:INFO:NativeExperiment:Device: duo (520045b34a5f357f, Android 8.0.0, API level 26)
+2021-11-01 11:22:37,082:INFO:Profilers:Loading
+2021-11-01 11:22:37,143:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:22:37,204:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:22:37,205:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Loading configuration
+2021-11-01 11:22:37,205:INFO:Device:Default unplug
+2021-11-01 11:22:37,266:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:22:37,346:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys battery unplug" returned: 
+
+2021-11-01 11:22:37,430:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:22:37,488:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:22:37,489:DEBUG:Scripts:Running hook before_experiment on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:22:37,501:INFO:Python3:before_experiment.py
+2021-11-01 11:22:37,502:DEBUG:Python3:before_experiment.py returned None
+2021-11-01 11:22:37,506:INFO:Profilers:Setting output
+2021-11-01 11:22:37,507:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 11:22:37,507:INFO:NativeExperiment:Run 1/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 11:22:37,754:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 11:22:37,755:INFO:NativeExperiment:Logcat cleared
+2021-11-01 11:22:37,808:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:22:37,862:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:22:37,863:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:22:37,874:INFO:Python3:before_run.py
+2021-11-01 11:22:38,757:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:23:23,530:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:23:24,223:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:23:24,925:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 11:23:29,622:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 11:23:33,628:DEBUG:Python3:before_run.py returned None
+2021-11-01 11:23:34,417:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=38ms (0ms mobile, 0ms wifi, 38ms not connected)
+
+2021-11-01 11:23:35,516:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:23:35,517:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:23:35,572:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:23:35,628:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:23:35,628:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:23:35,639:INFO:Python3:after_launch.py
+2021-11-01 11:23:35,641:DEBUG:Python3:after_launch.py returned None
+2021-11-01 11:23:35,644:INFO:Profilers:Start profiling
+2021-11-01 11:23:35,706:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:23:35,774:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:23:35,775:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 11:23:35,888:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 11:23:35,957:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:23:36,028:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:23:36,028:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 11:23:36,040:INFO:Python3:interaction.py
+2021-11-01 11:23:36,130:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:23:36,131:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:26:36,231:DEBUG:Python3:interaction.py returned None
+2021-11-01 11:27:26,286:INFO:Profilers:Stop profiling
+2021-11-01 11:27:26,370:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:27:26,437:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:27:26,438:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 11:27:26,521:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:27:26,522:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:27:26,582:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:27:26,658:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:27:26,659:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:27:26,670:INFO:Python3:before_close.py
+2021-11-01 11:27:26,671:DEBUG:Python3:before_close.py returned None
+2021-11-01 11:27:26,818:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 11:27:29,912:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:27:29,974:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:27:29,975:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:27:29,986:INFO:Python3:after_run.py
+2021-11-01 11:27:30,713:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 11:27:30,714:DEBUG:Python3:after_run.py returned None
+2021-11-01 11:27:30,718:INFO:Profilers:Collecting results
+2021-11-01 11:27:30,798:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:27:30,868:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:27:30,869:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 11:27:30,927:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:27:34,598:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 11:27:35,780:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 11:27:35,897:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 516 used of 512KB, 9 strings using 654):
+                    0 (14) RESET:TIME: 2021-11-01-12-23-40
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=0 ap_temp=32 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +16ms (3) 100 +audio stats=0:"dump"
+             +1s860ms (3) 100 current=34 ap_temp=34 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+            +11s896ms (3) 100 current=186 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+            +21s921ms (3) 100 current=213 ap_temp=32 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+            +31s945ms (3) 100 current=185 ap_temp=32 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+            +41s974ms (3) 100 current=160 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+            +52s004ms (3) 100 current=162 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m00s332ms (2) 100 +longwake=u0a161:"AudioMix"
+          +1m02s077ms (3) 100 current=165 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m12s119ms (3) 100 current=153 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m19s409ms (2) 100 +job=5009:"com.samsung.android.scloud/.cloudagent.ConnectionJobService"
+          +1m19s435ms (2) 100 -job=5009:"com.samsung.android.scloud/.cloudagent.ConnectionJobService"
+          +1m22s145ms (3) 100 current=136 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m32s167ms (4) 100 current=-240 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0 +job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+          +1m33s119ms (2) 100 -job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+          +1m33s127ms (2) 100 +job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+          +1m33s223ms (2) 100 -job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+          +1m33s273ms (2) 100 +job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+          +1m33s398ms (2) 100 -job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+          +1m42s193ms (3) 100 current=-301 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m52s226ms (3) 100 current=-296 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m02s254ms (3) 100 current=160 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m12s274ms (3) 100 current=175 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m22s309ms (3) 100 current=157 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m32s331ms (4) 100 current=161 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0 +job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+          +2m33s276ms (2) 100 -job=u0a148:"com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService"
+          +2m42s365ms (3) 100 current=168 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m52s388ms (3) 100 current=152 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m02s410ms (3) 100 current=150 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m12s442ms (3) 100 current=153 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m22s469ms (3) 100 current=150 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m32s496ms (3) 100 current=133 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m42s536ms (3) 100 current=137 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s939ms (2) 100 -top=u0a161:"tv.twitch.android.app"
+          +3m50s939ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s191ms (2) 100 -longwake=u0a161:"AudioMix"
+          +3m52s566ms (3) 100 current=126 ap_temp=33 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0
+          +4m00s017ms (2) 100 stats=0:"dump"
+
+
+2021-11-01 11:27:36,065:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 95.1, actual drain: 0
+
+2021-11-01 11:27:36,208:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=0 ap_temp=32 pst_temp=32 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 11:27:54,952:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 11:27:55,009:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 11:28:00,020:INFO:Profilers:Setting output
+2021-11-01 11:28:00,020:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 11:28:00,020:INFO:NativeExperiment:Run 2/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 11:28:00,218:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 11:28:00,218:INFO:NativeExperiment:Logcat cleared
+2021-11-01 11:28:00,281:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:28:00,337:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:28:00,337:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:28:00,349:INFO:Python3:before_run.py
+2021-11-01 11:28:01,231:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:28:45,972:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:28:46,684:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:28:47,438:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 11:28:52,118:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 11:28:56,125:DEBUG:Python3:before_run.py returned None
+2021-11-01 11:28:56,872:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=30ms (0ms mobile, 0ms wifi, 30ms not connected)
+
+2021-11-01 11:28:58,010:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:28:58,012:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:28:58,080:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:28:58,152:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:28:58,152:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:28:58,164:INFO:Python3:after_launch.py
+2021-11-01 11:28:58,165:DEBUG:Python3:after_launch.py returned None
+2021-11-01 11:28:58,168:INFO:Profilers:Start profiling
+2021-11-01 11:28:58,230:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:28:58,284:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:28:58,284:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 11:28:58,380:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 11:28:58,441:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:28:58,493:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:28:58,493:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 11:28:58,505:INFO:Python3:interaction.py
+2021-11-01 11:28:58,573:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:28:58,574:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:31:58,674:DEBUG:Python3:interaction.py returned None
+2021-11-01 11:32:48,728:INFO:Profilers:Stop profiling
+2021-11-01 11:32:48,812:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:32:48,869:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:32:48,870:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 11:32:48,947:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:32:48,947:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:32:48,999:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:32:49,053:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:32:49,054:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:32:49,067:INFO:Python3:before_close.py
+2021-11-01 11:32:49,069:DEBUG:Python3:before_close.py returned None
+2021-11-01 11:32:49,220:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 11:32:52,306:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:32:52,371:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:32:52,372:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:32:52,383:INFO:Python3:after_run.py
+2021-11-01 11:32:53,070:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 11:32:53,071:DEBUG:Python3:after_run.py returned None
+2021-11-01 11:32:53,074:INFO:Profilers:Collecting results
+2021-11-01 11:32:53,140:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:32:53,205:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:32:53,205:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 11:32:53,264:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:32:55,440:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 11:32:56,197:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 11:32:56,320:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 440 used of 512KB, 7 strings using 342):
+                    0 (14) RESET:TIME: 2021-11-01-12-29-03
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=128 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +16ms (2) 100 stats=0:"dump"
+               +298ms (3) 100 current=71 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+             +1s351ms (2) 100 +audio
+            +10s324ms (3) 100 current=139 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +20s344ms (3) 100 current=-288 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +30s373ms (3) 100 current=-316 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +40s399ms (3) 100 current=-327 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +50s423ms (3) 100 current=122 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m00s448ms (4) 100 current=155 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 +longwake=u0a161:"AudioMix"
+          +1m10s470ms (3) 100 current=169 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m20s488ms (3) 100 current=150 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m30s514ms (3) 100 current=143 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m40s531ms (3) 100 current=149 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m50s552ms (3) 100 current=157 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m00s578ms (3) 100 current=138 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m10s603ms (3) 100 current=147 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m20s623ms (3) 100 current=-147 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m30s647ms (3) 100 current=-303 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m40s676ms (3) 100 current=-311 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m50s698ms (3) 100 current=-69 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m00s720ms (3) 100 current=162 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m10s742ms (3) 100 current=149 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m20s759ms (3) 100 current=151 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m30s782ms (3) 100 current=142 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m40s805ms (3) 100 current=125 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s843ms (2) 100 -top=u0a161:"tv.twitch.android.app"
+          +3m50s843ms (2) 100 +top=u0a74:"com.sec.android.app.launcher"
+          +3m50s851ms (5) 100 current=135 ap_temp=36 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 -audio -longwake=u0a161:"AudioMix"
+          +3m57s941ms (2) 100 stats=0:"dump"
+
+
+2021-11-01 11:32:56,509:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 109, actual drain: 0
+
+2021-11-01 11:32:56,644:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=128 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 11:33:16,275:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 11:33:16,376:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 11:33:21,387:INFO:Profilers:Setting output
+2021-11-01 11:33:21,388:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 11:33:21,388:INFO:NativeExperiment:Run 3/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 11:33:21,553:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 11:33:21,554:INFO:NativeExperiment:Logcat cleared
+2021-11-01 11:33:21,628:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:33:21,691:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:33:21,691:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:33:21,703:INFO:Python3:before_run.py
+2021-11-01 11:33:22,610:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:34:07,403:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:34:08,081:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:34:08,807:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 11:34:13,478:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 11:34:17,484:DEBUG:Python3:before_run.py returned None
+2021-11-01 11:34:18,286:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=33ms (0ms mobile, 0ms wifi, 33ms not connected)
+
+2021-11-01 11:34:19,355:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:34:19,356:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:34:19,430:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:34:19,503:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:34:19,504:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:34:19,515:INFO:Python3:after_launch.py
+2021-11-01 11:34:19,516:DEBUG:Python3:after_launch.py returned None
+2021-11-01 11:34:19,520:INFO:Profilers:Start profiling
+2021-11-01 11:34:19,618:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:34:19,694:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:34:19,695:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 11:34:19,846:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 11:34:19,909:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:34:19,965:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:34:19,966:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 11:34:19,978:INFO:Python3:interaction.py
+2021-11-01 11:34:20,054:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:34:20,055:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:37:20,065:DEBUG:Python3:interaction.py returned None
+2021-11-01 11:38:10,118:INFO:Profilers:Stop profiling
+2021-11-01 11:38:10,194:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:38:10,258:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:38:10,259:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 11:38:10,343:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:38:10,344:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:38:10,403:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:38:10,467:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:38:10,468:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:38:10,480:INFO:Python3:before_close.py
+2021-11-01 11:38:10,481:DEBUG:Python3:before_close.py returned None
+2021-11-01 11:38:10,649:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 11:38:13,742:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:38:13,809:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:38:13,810:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:38:13,821:INFO:Python3:after_run.py
+2021-11-01 11:38:14,520:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 11:38:14,521:DEBUG:Python3:after_run.py returned None
+2021-11-01 11:38:14,524:INFO:Profilers:Collecting results
+2021-11-01 11:38:14,582:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:38:14,643:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:38:14,644:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 11:38:14,704:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:38:17,651:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 11:38:18,675:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 11:38:18,801:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 428 used of 512KB, 8 strings using 480):
+                    0 (14) RESET:TIME: 2021-11-01-12-34-24
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=137 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +31ms (3) 100 -audio stats=0:"dump"
+               +616ms (2) 100 +audio
+             +9s684ms (3) 100 current=171 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +19s715ms (3) 100 current=176 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +39s773ms (3) 100 current=170 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +49s803ms (3) 100 current=155 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m00s618ms (2) 100 +longwake=u0a161:"AudioMix"
+          +1m09s855ms (3) 100 current=-114 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m19s876ms (3) 100 current=-239 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m29s894ms (3) 100 current=-251 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m39s926ms (3) 100 current=50 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m49s960ms (3) 100 current=185 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m59s998ms (3) 100 current=182 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m10s036ms (3) 100 current=171 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m20s065ms (3) 100 current=162 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m30s094ms (3) 100 current=150 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m40s127ms (3) 100 current=153 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m50s163ms (3) 100 current=148 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m00s203ms (3) 100 current=146 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m10s228ms (3) 100 current=145 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m20s251ms (3) 100 current=-226 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m28s212ms (2) 100 +tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+          +3m30s283ms (3) 100 current=-268 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m38s215ms (2) 100 -tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+          +3m40s308ms (3) 100 current=-265 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s329ms (4) 100 current=140 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 -top=u0a161:"tv.twitch.android.app"
+          +3m50s827ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s093ms (2) 100 -longwake=u0a161:"AudioMix"
+          +3m58s976ms (2) 100 stats=0:"dump"
+
+
+2021-11-01 11:38:18,965:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 95.8, actual drain: 0
+
+2021-11-01 11:38:19,125:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=137 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 11:38:36,215:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 11:38:36,441:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 11:38:41,450:INFO:Profilers:Setting output
+2021-11-01 11:38:41,450:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 11:38:41,451:INFO:NativeExperiment:Run 4/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 11:38:41,635:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 11:38:41,636:INFO:NativeExperiment:Logcat cleared
+2021-11-01 11:38:41,715:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:38:41,774:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:38:41,775:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:38:41,786:INFO:Python3:before_run.py
+2021-11-01 11:38:42,671:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:39:27,418:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:39:28,141:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:39:28,860:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 11:39:33,591:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 11:39:37,596:DEBUG:Python3:before_run.py returned None
+2021-11-01 11:39:38,357:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=25ms (0ms mobile, 0ms wifi, 25ms not connected)
+
+2021-11-01 11:39:39,505:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:39:39,506:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:39:39,566:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:39:39,619:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:39:39,620:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:39:39,631:INFO:Python3:after_launch.py
+2021-11-01 11:39:39,633:DEBUG:Python3:after_launch.py returned None
+2021-11-01 11:39:39,636:INFO:Profilers:Start profiling
+2021-11-01 11:39:39,698:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:39:39,751:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:39:39,751:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 11:39:39,865:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 11:39:39,931:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:39:39,983:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:39:39,984:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 11:39:39,996:INFO:Python3:interaction.py
+2021-11-01 11:39:40,066:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:39:40,067:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:42:40,167:DEBUG:Python3:interaction.py returned None
+2021-11-01 11:43:30,221:INFO:Profilers:Stop profiling
+2021-11-01 11:43:30,292:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:43:30,351:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:43:30,352:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 11:43:30,435:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:43:30,435:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:43:30,499:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:43:30,560:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:43:30,561:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:43:30,572:INFO:Python3:before_close.py
+2021-11-01 11:43:30,574:DEBUG:Python3:before_close.py returned None
+2021-11-01 11:43:30,740:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 11:43:33,826:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:43:33,891:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:43:33,891:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:43:33,903:INFO:Python3:after_run.py
+2021-11-01 11:43:34,615:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 11:43:34,616:DEBUG:Python3:after_run.py returned None
+2021-11-01 11:43:34,619:INFO:Profilers:Collecting results
+2021-11-01 11:43:34,679:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:43:34,740:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:43:34,741:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 11:43:34,803:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:43:38,606:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 11:43:39,847:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 11:43:39,973:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 436 used of 512KB, 7 strings using 342):
+                    0 (14) RESET:TIME: 2021-11-01-12-39-44
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=95 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +17ms (2) 100 stats=0:"dump"
+               +563ms (4) 100 current=-240 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 +audio
+            +10s584ms (3) 100 current=-301 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +20s609ms (3) 100 current=-304 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +30s631ms (3) 100 current=20 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +40s661ms (3) 100 current=169 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +50s689ms (3) 100 current=155 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m00s713ms (4) 100 current=166 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 +longwake=u0a161:"AudioMix"
+          +1m10s731ms (3) 100 current=146 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m20s760ms (3) 100 current=141 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m30s781ms (3) 100 current=80 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m40s808ms (3) 100 current=-278 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m50s840ms (3) 100 current=-317 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m00s868ms (3) 100 current=-284 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m10s903ms (3) 100 current=143 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m20s928ms (3) 100 current=170 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m30s952ms (3) 100 current=161 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m40s973ms (3) 100 current=139 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m50s997ms (3) 100 current=155 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m01s021ms (3) 100 current=148 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m11s046ms (3) 100 current=-244 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m21s072ms (3) 100 current=-312 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m31s110ms (3) 100 current=-320 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m41s131ms (3) 100 current=89 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s896ms (2) 100 -top=u0a161:"tv.twitch.android.app"
+          +3m50s896ms (2) 100 +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s144ms (5) 100 current=139 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 -audio -longwake=u0a161:"AudioMix"
+          +4m00s124ms (2) 100 stats=0:"dump"
+
+
+2021-11-01 11:43:40,171:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 99.0, actual drain: 0
+
+2021-11-01 11:43:40,329:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=95 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 11:43:59,883:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 11:44:00,083:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 11:44:05,093:INFO:Profilers:Setting output
+2021-11-01 11:44:05,094:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 11:44:05,094:INFO:NativeExperiment:Run 5/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 11:44:05,293:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 11:44:05,293:INFO:NativeExperiment:Logcat cleared
+2021-11-01 11:44:05,360:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:44:05,427:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:44:05,428:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:44:05,441:INFO:Python3:before_run.py
+2021-11-01 11:44:06,309:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:44:51,079:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:44:51,762:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:44:52,499:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 11:44:57,192:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 11:45:01,198:DEBUG:Python3:before_run.py returned None
+2021-11-01 11:45:01,978:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=29ms (0ms mobile, 0ms wifi, 29ms not connected)
+
+2021-11-01 11:45:03,054:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:45:03,055:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:45:03,112:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:45:03,178:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:45:03,179:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:45:03,190:INFO:Python3:after_launch.py
+2021-11-01 11:45:03,192:DEBUG:Python3:after_launch.py returned None
+2021-11-01 11:45:03,195:INFO:Profilers:Start profiling
+2021-11-01 11:45:03,254:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:45:03,306:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:45:03,307:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 11:45:03,456:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 11:45:03,527:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:45:03,586:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:45:03,587:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 11:45:03,599:INFO:Python3:interaction.py
+2021-11-01 11:45:03,680:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:45:03,680:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:48:03,773:DEBUG:Python3:interaction.py returned None
+2021-11-01 11:48:53,826:INFO:Profilers:Stop profiling
+2021-11-01 11:48:53,911:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:48:53,964:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:48:53,965:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 11:48:54,046:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:48:54,046:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:48:54,104:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:48:54,164:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:48:54,165:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:48:54,176:INFO:Python3:before_close.py
+2021-11-01 11:48:54,178:DEBUG:Python3:before_close.py returned None
+2021-11-01 11:48:54,334:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 11:48:57,419:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:48:57,480:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:48:57,480:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:48:57,492:INFO:Python3:after_run.py
+2021-11-01 11:48:58,178:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 11:48:58,179:DEBUG:Python3:after_run.py returned None
+2021-11-01 11:48:58,182:INFO:Profilers:Collecting results
+2021-11-01 11:48:58,265:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:48:58,333:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:48:58,334:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 11:48:58,397:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:49:01,526:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 11:49:02,589:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 11:49:02,720:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 444 used of 512KB, 7 strings using 342):
+                    0 (14) RESET:TIME: 2021-11-01-12-45-08
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=-296 ap_temp=34 pst_temp=35 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +15ms (3) 100 +audio stats=0:"dump"
+               +400ms (2) 100 -audio
+             +1s268ms (2) 100 +audio
+             +7s831ms (3) 100 current=-293 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +17s853ms (3) 100 current=-275 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +27s873ms (3) 100 current=-249 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +37s899ms (3) 100 current=-250 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +47s926ms (3) 100 current=-1 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +57s954ms (3) 100 current=218 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m01s278ms (2) 100 +longwake=u0a161:"AudioMix"
+          +1m07s978ms (3) 100 current=211 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m18s000ms (3) 100 current=188 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m28s030ms (3) 100 current=187 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m38s111ms (3) 100 current=180 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m48s134ms (3) 100 current=169 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m58s157ms (3) 100 current=170 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m08s188ms (3) 100 current=155 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m28s233ms (3) 100 current=154 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m38s259ms (3) 100 current=158 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m48s281ms (3) 100 current=140 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m58s307ms (3) 100 current=-203 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m08s341ms (3) 100 current=-302 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m18s361ms (3) 100 current=-281 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m28s389ms (3) 100 current=-278 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m38s420ms (3) 100 current=-280 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m48s437ms (3) 100 current=-273 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s890ms (2) 100 -top=u0a161:"tv.twitch.android.app"
+          +3m50s890ms (2) 100 +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s180ms (3) 100 -audio -longwake=u0a161:"AudioMix"
+          +3m58s482ms (4) 100 current=-325 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 stats=0:"dump"
+
+
+2021-11-01 11:49:02,920:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 73.4, actual drain: 0
+
+2021-11-01 11:49:03,052:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=-296 ap_temp=34 pst_temp=35 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 11:49:21,141:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 11:49:21,197:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 11:49:26,208:INFO:Profilers:Setting output
+2021-11-01 11:49:26,208:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 11:49:26,208:INFO:NativeExperiment:Run 6/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 11:49:26,387:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 11:49:26,388:INFO:NativeExperiment:Logcat cleared
+2021-11-01 11:49:26,458:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:49:26,520:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:49:26,520:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:49:26,532:INFO:Python3:before_run.py
+2021-11-01 11:49:27,423:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:50:12,170:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:50:12,831:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:50:13,549:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 11:50:18,250:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 11:50:22,256:DEBUG:Python3:before_run.py returned None
+2021-11-01 11:50:23,021:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=31ms (0ms mobile, 0ms wifi, 31ms not connected)
+
+2021-11-01 11:50:24,095:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:50:24,098:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:50:24,170:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:50:24,250:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:50:24,251:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:50:24,262:INFO:Python3:after_launch.py
+2021-11-01 11:50:24,263:DEBUG:Python3:after_launch.py returned None
+2021-11-01 11:50:24,267:INFO:Profilers:Start profiling
+2021-11-01 11:50:24,344:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:50:24,414:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:50:24,415:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 11:50:24,510:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 11:50:24,575:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:50:24,628:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:50:24,629:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 11:50:24,641:INFO:Python3:interaction.py
+2021-11-01 11:50:24,729:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:50:24,729:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:53:24,830:DEBUG:Python3:interaction.py returned None
+2021-11-01 11:54:14,884:INFO:Profilers:Stop profiling
+2021-11-01 11:54:14,960:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:54:15,022:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:54:15,023:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 11:54:15,104:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:54:15,105:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:54:15,164:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:54:15,223:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:54:15,223:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:54:15,235:INFO:Python3:before_close.py
+2021-11-01 11:54:15,237:DEBUG:Python3:before_close.py returned None
+2021-11-01 11:54:15,395:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 11:54:18,487:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:54:18,558:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:54:18,559:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:54:18,572:INFO:Python3:after_run.py
+2021-11-01 11:54:19,294:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 11:54:19,294:DEBUG:Python3:after_run.py returned None
+2021-11-01 11:54:19,298:INFO:Profilers:Collecting results
+2021-11-01 11:54:19,360:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:54:19,423:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:54:19,423:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 11:54:19,511:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:54:22,809:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 11:54:23,886:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 11:54:24,007:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 452 used of 512KB, 9 strings using 512):
+                    0 (14) RESET:TIME: 2021-11-01-12-50-29
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=199 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +15ms (3) 100 -audio stats=0:"dump"
+               +346ms (2) 100 +audio
+             +7s635ms (3) 100 current=188 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +17s665ms (3) 100 current=195 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +27s698ms (3) 100 current=197 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +47s774ms (3) 100 current=183 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +57s793ms (3) 100 current=177 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m00s375ms (2) 100 +longwake=u0a161:"AudioMix"
+          +1m07s826ms (3) 100 current=175 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m17s849ms (3) 100 current=167 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m27s904ms (3) 100 current=159 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m37s931ms (3) 100 current=168 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m47s960ms (3) 100 current=155 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m08s001ms (3) 100 current=151 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m18s032ms (3) 100 current=154 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m25s185ms (2) 100 +tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+          +2m28s052ms (3) 100 current=143 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m30s801ms (2) 100 stats=0:"get-stats"
+          +2m35s203ms (2) 100 -tmpwhitelist=u0a25:"broadcast:u0a25:com.google.android.intent.action.GCM_RECONNECT"
+          +2m38s084ms (3) 100 current=145 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m48s111ms (3) 100 current=-171 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m58s139ms (3) 100 current=-262 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m08s174ms (3) 100 current=-240 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m18s205ms (3) 100 current=-247 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m28s234ms (3) 100 current=-244 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m38s257ms (3) 100 current=-253 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m48s281ms (3) 100 current=-267 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s892ms (2) 100 -top=u0a161:"tv.twitch.android.app"
+          +3m50s892ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s144ms (2) 100 -longwake=u0a161:"AudioMix"
+          +3m58s299ms (3) 100 current=-319 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m59s502ms (2) 100 stats=0:"dump"
+
+
+2021-11-01 11:54:24,202:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 96.0, actual drain: 0
+
+2021-11-01 11:54:24,336:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=199 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 11:54:41,734:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 11:54:41,788:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 11:54:46,793:INFO:Profilers:Setting output
+2021-11-01 11:54:46,794:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 11:54:46,794:INFO:NativeExperiment:Run 7/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 11:54:46,988:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 11:54:46,989:INFO:NativeExperiment:Logcat cleared
+2021-11-01 11:54:47,074:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:54:47,132:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:54:47,133:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:54:47,144:INFO:Python3:before_run.py
+2021-11-01 11:54:48,003:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:55:32,768:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:55:33,476:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 11:55:34,186:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 11:55:38,874:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 11:55:42,880:DEBUG:Python3:before_run.py returned None
+2021-11-01 11:55:43,635:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=31ms (0ms mobile, 0ms wifi, 31ms not connected)
+
+2021-11-01 11:55:44,715:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:55:44,715:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:55:44,795:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:55:44,886:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:55:44,886:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:55:44,898:INFO:Python3:after_launch.py
+2021-11-01 11:55:44,899:DEBUG:Python3:after_launch.py returned None
+2021-11-01 11:55:44,903:INFO:Profilers:Start profiling
+2021-11-01 11:55:44,962:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:55:45,015:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:55:45,016:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 11:55:45,118:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 11:55:45,182:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:55:45,237:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:55:45,237:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 11:55:45,250:INFO:Python3:interaction.py
+2021-11-01 11:55:45,343:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:55:45,343:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:58:45,444:DEBUG:Python3:interaction.py returned None
+2021-11-01 11:59:35,497:INFO:Profilers:Stop profiling
+2021-11-01 11:59:35,579:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:59:35,641:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:59:35,642:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 11:59:35,727:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 11:59:35,727:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 11:59:35,794:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:59:35,868:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:59:35,869:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 11:59:35,880:INFO:Python3:before_close.py
+2021-11-01 11:59:35,882:DEBUG:Python3:before_close.py returned None
+2021-11-01 11:59:36,031:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 11:59:39,117:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:59:39,178:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:59:39,179:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 11:59:39,190:INFO:Python3:after_run.py
+2021-11-01 11:59:39,909:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 11:59:39,909:DEBUG:Python3:after_run.py returned None
+2021-11-01 11:59:39,913:INFO:Profilers:Collecting results
+2021-11-01 11:59:39,976:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 11:59:40,040:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:59:40,041:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 11:59:40,104:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 11:59:43,069:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 11:59:44,060:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 11:59:44,197:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 448 used of 512KB, 7 strings using 342):
+                    0 (14) RESET:TIME: 2021-11-01-12-55-49
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=195 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +14ms (3) 100 -audio stats=0:"dump"
+               +442ms (2) 100 +audio
+             +7s950ms (3) 100 current=181 ap_temp=35 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +17s971ms (3) 100 current=189 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +27s993ms (3) 100 current=173 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +38s016ms (3) 100 current=178 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +48s038ms (3) 100 current=166 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+            +58s062ms (3) 100 current=165 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m00s491ms (2) 100 +longwake=u0a161:"AudioMix"
+          +1m08s088ms (3) 100 current=155 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m18s114ms (3) 100 current=156 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m28s137ms (3) 100 current=159 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m38s158ms (3) 100 current=150 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m48s192ms (3) 100 current=145 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m58s219ms (3) 100 current=150 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m08s241ms (3) 100 current=154 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m18s261ms (3) 100 current=134 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m28s289ms (3) 100 current=155 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m38s314ms (3) 100 current=147 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m48s343ms (3) 100 current=138 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m58s383ms (3) 100 current=140 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m08s407ms (3) 100 current=-166 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m18s428ms (3) 100 current=-283 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m28s451ms (3) 100 current=-280 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m38s476ms (3) 100 current=-277 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m48s498ms (3) 100 current=-285 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s921ms (2) 100 -top=u0a161:"tv.twitch.android.app"
+          +3m50s921ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s182ms (2) 100 -longwake=u0a161:"AudioMix"
+          +3m58s539ms (4) 100 current=-310 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 stats=0:"dump"
+
+
+2021-11-01 11:59:44,405:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 89.3, actual drain: 0
+
+2021-11-01 11:59:44,528:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=195 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 12:00:02,721:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 12:00:02,922:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 12:00:07,932:INFO:Profilers:Setting output
+2021-11-01 12:00:07,932:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 12:00:07,933:INFO:NativeExperiment:Run 8/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 12:00:08,114:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 12:00:08,115:INFO:NativeExperiment:Logcat cleared
+2021-11-01 12:00:08,201:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:00:08,277:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:00:08,277:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 12:00:08,289:INFO:Python3:before_run.py
+2021-11-01 12:00:09,159:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:00:53,923:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:00:54,617:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:00:55,372:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 12:01:00,214:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 12:01:04,220:DEBUG:Python3:before_run.py returned None
+2021-11-01 12:01:05,052:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=48ms (0ms mobile, 0ms wifi, 48ms not connected)
+
+2021-11-01 12:01:06,169:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 12:01:06,170:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 12:01:06,236:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:01:06,291:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:01:06,292:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 12:01:06,304:INFO:Python3:after_launch.py
+2021-11-01 12:01:06,305:DEBUG:Python3:after_launch.py returned None
+2021-11-01 12:01:06,308:INFO:Profilers:Start profiling
+2021-11-01 12:01:06,360:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:01:06,418:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:01:06,419:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 12:01:06,533:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 12:01:06,606:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:01:06,669:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:01:06,670:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 12:01:06,682:INFO:Python3:interaction.py
+2021-11-01 12:01:06,762:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 12:01:06,763:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 12:04:06,814:DEBUG:Python3:interaction.py returned None
+2021-11-01 12:04:56,859:INFO:Profilers:Stop profiling
+2021-11-01 12:04:56,957:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:04:57,031:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:04:57,032:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 12:04:57,107:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 12:04:57,107:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 12:04:57,175:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:04:57,239:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:04:57,239:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 12:04:57,251:INFO:Python3:before_close.py
+2021-11-01 12:04:57,252:DEBUG:Python3:before_close.py returned None
+2021-11-01 12:04:57,405:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 12:05:00,499:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:05:00,559:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:05:00,560:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 12:05:00,571:INFO:Python3:after_run.py
+2021-11-01 12:05:01,254:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 12:05:01,255:DEBUG:Python3:after_run.py returned None
+2021-11-01 12:05:01,258:INFO:Profilers:Collecting results
+2021-11-01 12:05:01,320:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:05:01,383:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:05:01,383:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 12:05:01,444:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:05:03,307:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 12:05:03,936:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 12:05:04,048:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 412 used of 512KB, 7 strings using 342):
+                    0 (14) RESET:TIME: 2021-11-01-13-01-11
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=161 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (3) 100 -audio userfg=0:"0"
+                +14ms (3) 100 +audio stats=0:"dump"
+             +7s390ms (3) 100 current=138 ap_temp=35 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +17s429ms (3) 100 current=160 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +27s460ms (3) 100 current=149 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +37s483ms (3) 100 current=145 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +47s510ms (3) 100 current=143 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +57s527ms (3) 100 current=-197 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m00s141ms (2) 100 +longwake=u0a161:"AudioMix"
+          +1m07s565ms (3) 100 current=-240 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m17s598ms (3) 100 current=-262 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m27s628ms (3) 100 current=-229 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m37s665ms (3) 100 current=-231 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m47s689ms (3) 100 current=-243 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m57s720ms (3) 100 current=-252 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m07s749ms (3) 100 current=-230 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m27s820ms (3) 100 current=-243 ap_temp=33 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m37s848ms (3) 100 current=-274 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m47s879ms (3) 100 current=-281 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m57s896ms (3) 100 current=148 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m07s929ms (3) 100 current=212 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m17s958ms (3) 100 current=218 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m27s981ms (3) 100 current=180 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m48s027ms (3) 100 current=187 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s887ms (2) 100 -top=u0a161:"tv.twitch.android.app"
+          +3m50s887ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s155ms (2) 100 -longwake=u0a161:"AudioMix"
+          +3m57s526ms (2) 100 stats=0:"dump"
+
+
+2021-11-01 12:05:04,262:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 103, actual drain: 0
+
+2021-11-01 12:05:04,389:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=161 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 12:05:21,887:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 12:05:21,961:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 12:05:26,973:INFO:Profilers:Setting output
+2021-11-01 12:05:26,973:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 12:05:26,973:INFO:NativeExperiment:Run 9/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 12:05:27,113:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 12:05:27,113:INFO:NativeExperiment:Logcat cleared
+2021-11-01 12:05:27,197:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:05:27,259:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:05:27,260:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 12:05:27,271:INFO:Python3:before_run.py
+2021-11-01 12:05:28,206:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:06:12,947:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:06:13,628:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:06:14,330:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 12:06:19,089:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 12:06:23,094:DEBUG:Python3:before_run.py returned None
+2021-11-01 12:06:23,866:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=31ms (0ms mobile, 0ms wifi, 31ms not connected)
+
+2021-11-01 12:06:24,944:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 12:06:24,945:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 12:06:25,029:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:06:25,109:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:06:25,110:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 12:06:25,121:INFO:Python3:after_launch.py
+2021-11-01 12:06:25,123:DEBUG:Python3:after_launch.py returned None
+2021-11-01 12:06:25,126:INFO:Profilers:Start profiling
+2021-11-01 12:06:25,198:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:06:25,272:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:06:25,272:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 12:06:25,381:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 12:06:25,444:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:06:25,497:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:06:25,498:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 12:06:25,510:INFO:Python3:interaction.py
+2021-11-01 12:06:25,579:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 12:06:25,580:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 12:09:25,680:DEBUG:Python3:interaction.py returned None
+2021-11-01 12:10:15,719:INFO:Profilers:Stop profiling
+2021-11-01 12:10:15,801:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:10:15,863:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:10:15,864:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 12:10:15,949:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 12:10:15,950:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 12:10:16,011:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:10:16,068:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:10:16,069:DEBUG:Scripts:Running hook before_close on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 12:10:16,080:INFO:Python3:before_close.py
+2021-11-01 12:10:16,082:DEBUG:Python3:before_close.py returned None
+2021-11-01 12:10:16,240:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "am force-stop tv.twitch.android.app" returned: 
+
+2021-11-01 12:10:19,308:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:10:19,386:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:10:19,387:DEBUG:Scripts:Running hook after_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 12:10:19,398:INFO:Python3:after_run.py
+2021-11-01 12:10:20,116:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 600 1000" returned: 
+
+2021-11-01 12:10:20,117:DEBUG:Python3:after_run.py returned None
+2021-11-01 12:10:20,120:INFO:Profilers:Collecting results
+2021-11-01 12:10:20,215:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:10:20,280:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:10:20,280:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Collecting data
+2021-11-01 12:10:20,338:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:10:23,987:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-11-01 12:10:25,183:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-11-01 12:10:25,303:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 436 used of 512KB, 7 strings using 342):
+                    0 (14) RESET:TIME: 2021-11-01-13-06-30
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=117 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+                    0 (2) 100 fg=u0a160:"com.egorovandreyrm.pcapremote"
+                    0 (2) 100 fg=u0a22:"com.sec.android.app.samsungapps"
+                    0 (2) 100 top=u0a161:"tv.twitch.android.app"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +15ms (3) 100 -audio stats=0:"dump"
+               +611ms (2) 100 +audio
+             +9s451ms (3) 100 current=135 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +19s483ms (3) 100 current=-216 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +29s513ms (3) 100 current=-268 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +39s541ms (3) 100 current=-254 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +49s582ms (3) 100 current=-257 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+            +59s618ms (3) 100 current=-269 ap_temp=33 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m00s631ms (2) 100 +longwake=u0a161:"AudioMix"
+          +1m09s644ms (3) 100 current=-292 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m19s675ms (3) 100 current=147 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m29s702ms (3) 100 current=186 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m39s722ms (3) 100 current=181 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m49s752ms (3) 100 current=162 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +1m59s777ms (3) 100 current=178 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m09s796ms (3) 100 current=171 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m19s817ms (3) 100 current=147 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m29s842ms (3) 100 current=137 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m39s865ms (3) 100 current=127 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m49s890ms (3) 100 current=-167 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +2m59s915ms (3) 100 current=-263 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m09s935ms (3) 100 current=-274 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m19s965ms (3) 100 current=-276 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m29s995ms (3) 100 current=-289 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m40s018ms (3) 100 current=-275 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0
+          +3m50s049ms (4) 100 current=26 ap_temp=34 pst_temp=33 bat_temp=27 chg_temp=0 pa_temp=0 -top=u0a161:"tv.twitch.android.app"
+          +3m50s873ms (3) 100 -audio +top=u0a74:"com.sec.android.app.launcher"
+          +3m51s133ms (2) 100 -longwake=u0a161:"AudioMix"
+          +3m59s932ms (2) 100 stats=0:"dump"
+
+
+2021-11-01 12:10:25,489:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3000, Computed drain: 91.9, actual drain: 0
+
+2021-11-01 12:10:25,650:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=full health=good plug=none temp=270 volt=4241 current=117 ap_temp=34 pst_temp=34 bat_temp=27 chg_temp=0 pa_temp=0 misc_event=0 online=4 current_event=0 charge=0 +running +wake_lock +wifi_multicast +wifi_radio +audio +screen phone_state=emergency phone_signal_strength=great +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed +ble_scan
+
+2021-11-01 12:10:43,066:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-11-01 12:10:43,228:INFO:NativeExperiment:Sleeping for 5000 milliseconds
+2021-11-01 12:10:48,238:INFO:Profilers:Setting output
+2021-11-01 12:10:48,239:DEBUG:PluginHandler:Batterystats: Setting output: /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/data/duo/tv-twitch-android-app/batterystats
+2021-11-01 12:10:48,239:INFO:NativeExperiment:Run 10/30 of subject "tv.twitch.android.app" on duo
+2021-11-01 12:10:48,443:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "logcat -c" returned: 
+
+2021-11-01 12:10:48,444:INFO:NativeExperiment:Logcat cleared
+2021-11-01 12:10:48,531:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:10:48,599:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:10:48,599:DEBUG:Scripts:Running hook before_run on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ()
+kwargs: {}
+2021-11-01 12:10:48,611:INFO:Python3:before_run.py
+2021-11-01 12:10:49,498:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:11:34,236:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:11:34,915:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 670 88" returned: 
+
+2021-11-01 12:11:35,630:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 85 637" returned: 
+
+2021-11-01 12:11:40,337:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "input tap 650 1232" returned: 
+
+2021-11-01 12:11:44,343:DEBUG:Python3:before_run.py returned None
+2021-11-01 12:11:45,493:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "monkey -p tv.twitch.android.app 1" returned: 
+  bash arg: -p
+  bash arg: tv.twitch.android.app
+  bash arg: 1
+args: [-p, tv.twitch.android.app, 1]
+ arg: "-p"
+ arg: "tv.twitch.android.app"
+ arg: "1"
+data="tv.twitch.android.app"
+Events injected: 1
+## Network stats: elapsed time=37ms (0ms mobile, 0ms wifi, 37ms not connected)
+
+2021-11-01 12:11:46,588:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 12:11:46,589:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 12:11:46,651:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:11:46,708:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:11:46,709:DEBUG:Scripts:Running hook after_launch on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: ('520045b34a5f357f', 'tv.twitch.android.app')
+kwargs: {}
+2021-11-01 12:11:46,720:INFO:Python3:after_launch.py
+2021-11-01 12:11:46,721:DEBUG:Python3:after_launch.py returned None
+2021-11-01 12:11:46,725:INFO:Profilers:Start profiling
+2021-11-01 12:11:46,784:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:11:46,843:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:11:46,844:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Start profiling
+2021-11-01 12:11:46,986:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-11-01 12:11:47,063:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:11:47,152:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:11:47,153:DEBUG:Scripts:Running hook interaction on device duo (520045b34a5f357f, Android 8.0.0, API level 26)
+args: (<AndroidRunner.NativeExperiment.NativeExperiment object at 0xb3a75170>,)
+kwargs: {}
+2021-11-01 12:11:47,165:INFO:Python3:interaction.py
+2021-11-01 12:11:47,292:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+tv.twitch.android.app
+
+
+2021-11-01 12:11:47,293:DEBUG:Device:Current activity: tv.twitch.android.app
+2021-11-01 12:12:49,544:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "dumpsys battery reset" returned: 
+
+2021-11-01 12:12:49,544:INFO:Profilers:Stop profiling
+2021-11-01 12:12:49,627:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:12:49,760:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:12:49,761:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Stop profiling
+2021-11-01 12:12:49,761:INFO:Profilers:Unloading
+2021-11-01 12:12:49,875:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.release" returned: 
+8.0.0
+
+2021-11-01 12:12:49,973:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "getprop ro.build.version.sdk" returned: 
+26
+
+2021-11-01 12:12:49,973:DEBUG:PluginHandler:Batterystats: duo (520045b34a5f357f, Android 8.0.0, API level 26): Cleanup
+2021-11-01 12:12:51,758:DEBUG:AndroidRunner.Adb:520045b34a5f357f: "pm list packages" returned: 
+package:com.samsung.android.provider.filterprovider
+package:com.monotype.android.font.rosemary
+package:com.sec.android.app.DataCreate
+package:com.android.cts.priv.ctsshim
+package:com.gd.mobicore.pa
+package:com.sec.android.widgetapp.samsungapps
+package:com.google.android.youtube
+package:com.samsung.android.app.galaxyfinder
+package:com.sec.location.nsflp2
+package:stericson.busybox
+package:com.samsung.android.themestore
+package:com.sec.android.app.chromecustomizations
+package:com.google.android.ext.services
+package:com.android.providers.telephony
+package:com.sec.android.app.parser
+package:com.samsung.android.applock
+package:com.google.android.googlequicksearchbox
+package:com.samsung.android.calendar
+package:com.android.providers.calendar
+package:com.osp.app.signin
+package:com.samsung.clipboardsaveservice
+package:com.sec.automation
+package:com.android.providers.media
+package:com.google.android.onetimeinitializer
+package:com.sec.android.mimage.gear360editor
+package:com.google.android.ext.shared
+package:com.android.wallpapercropper
+package:com.samsung.android.provider.shootingmodeprovider
+package:com.samsung.android.wallpaper.res
+package:com.samsung.android.app.withtv
+package:com.samsung.android.smartmirroring
+package:com.skms.android.agent
+package:com.sec.android.app.safetyassurance
+package:com.samsung.android.incallui
+package:com.samsung.android.knox.containercore
+package:com.sec.factory.camera
+package:com.sec.vsimservice
+package:org.simalliance.openmobileapi.service
+package:com.sec.usbsettings
+package:com.samsung.android.easysetup
+package:com.android.documentsui
+package:android.auto_generated_rro__
+package:com.android.externalstorage
+package:com.sec.android.easyonehand
+package:com.sec.android.app.camerabokehservice
+package:com.sec.factory
+package:com.samsung.android.provider.stickerprovider
+package:com.android.htmlviewer
+package:com.android.companiondevicemanager
+package:com.android.mms.service
+package:com.samsung.android.rubin.app
+package:com.sec.android.wallpapercropper2
+package:com.android.providers.downloads
+package:com.diotek.sec.lookup.dictionary
+package:com.sec.android.easyMover.Agent
+package:com.samsung.ucs.agent.boot
+package:com.wsomacp
+package:com.samsung.faceservice
+package:com.monotype.android.font.foundation
+package:com.sec.android.widgetapp.easymodecontactswidget
+package:com.samsung.android.MtpApplication
+package:com.sec.android.app.factorykeystring
+package:com.sec.android.app.samsungapps
+package:com.sec.android.emergencymode.service
+package:com.google.android.configupdater
+package:com.sec.android.app.wlantest
+package:com.microsoft.office.excel
+package:com.samsung.android.app.camera.sticker.facear.preload
+package:com.sec.android.app.billing
+package:com.sec.epdgtestapp
+package:com.samsung.android.game.gamehome
+package:com.android.defcontainer
+package:com.sec.android.daemonapp
+package:com.sec.ims
+package:com.sec.sve
+package:com.sec.enterprise.knox.attestation
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.dsi.ant.service.socket
+package:com.sec.android.AutoPreconfig
+package:com.microsoft.skydrive
+package:com.samsung.android.SettingsReceiver
+package:com.sec.android.app.soundalive
+package:com.sec.android.providers.security
+package:com.sec.android.provider.badge
+package:com.android.certinstaller
+package:com.samsung.android.securitylogagent
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:com.samsung.android.knox.containeragent
+package:com.samsung.android.app.assistantmenu
+package:com.samsung.SMT
+package:com.samsung.cmh
+package:com.samsung.mlp
+package:com.samsung.knox.securefolder.setuppage
+package:com.sec.factory.iris.usercamera
+package:android
+package:com.samsung.knox.keychain
+package:com.samsung.android.app.multiwindow
+package:com.samsung.android.sm.devicesecurity
+package:com.dsi.ant.sample.acquirechannels
+package:com.android.egg
+package:com.android.mtp
+package:com.android.stk
+package:com.samsung.android.messaging
+package:com.android.backupconfirm
+package:com.samsung.klmsagent
+package:com.sec.android.app.SecSetupWizard
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.sec.android.app.hwmoduletest
+package:com.sec.bcservice
+package:com.sec.modem.settings
+package:com.sec.android.app.sysscope
+package:com.samsung.android.providers.context
+package:com.sec.android.app.servicemodeapp
+package:com.sec.android.preloadinstaller
+package:com.sec.android.uibcvirtualsoftkey
+package:com.google.android.setupwizard
+package:com.samsung.android.sdk.professionalaudio.utility.jammonitor
+package:com.sec.android.gallery3d
+package:com.android.providers.settings
+package:com.sec.imsservice
+package:com.android.sharedstoragebackup
+package:com.facebook.services
+package:com.samsung.android.mobileservice
+package:com.android.printspooler
+package:com.samsung.storyservice
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.samsung.knox.securefolder
+package:com.android.bips
+package:com.android.stk2
+package:com.samsung.android.game.gametools
+package:com.kingoapp.apk
+package:com.samsung.android.app.simplesharing
+package:com.samsung.android.da.daagent
+package:com.samsung.android.app.reminder
+package:com.samsung.android.timezone.autoupdate_O
+package:com.samsung.android.smartcallprovider
+package:com.google.android.apps.maps
+package:com.sec.enterprise.mdm.vpn
+package:com.dsi.ant.plugins.antplus
+package:com.microsoft.office.word
+package:com.samsung.advp.imssettings
+package:com.samsung.android.location
+package:com.sec.android.inputmethod
+package:com.sec.android.app.clockpackage
+package:com.sec.android.RilServiceModeApp
+package:com.google.android.webview
+package:com.sec.android.app.simsettingmgr
+package:com.microsoft.office.powerpoint
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.samsung.crane
+package:com.sec.imslogger
+package:com.samsung.android.clipboarduiservice
+package:com.android.keychain
+package:com.android.chrome
+package:com.samsung.android.themecenter
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tts
+package:android.autoinstalls.config.samsung
+package:tv.twitch.android.app
+package:com.android.calllogbackup
+package:com.google.android.partnersetup
+package:com.sec.android.diagmonagent
+package:com.sec.spp.push
+package:com.android.carrierdefaultapp
+package:com.dsi.ant.server
+package:com.sec.android.app.myfiles
+package:com.android.proxyhandler
+package:com.samsung.android.allshare.service.fileshare
+package:com.sec.android.mimage.photoretouching
+package:com.sec.android.app.launcher
+package:flipboard.boxer.app
+package:com.google.android.feedback
+package:com.google.android.printservice.recommendation
+package:com.google.android.syncadapters.calendar
+package:com.android.managedprovisioning
+package:com.samsung.android.authfw
+package:com.monotype.android.font.chococooky
+package:com.android.dreams.phototable
+package:com.sec.android.service.health
+package:com.samsung.safetyinformation
+package:com.facebook.katana
+package:com.samsung.android.dqagent
+package:com.sec.android.app.ringtoneBR
+package:com.android.providers.partnerbookmarks
+package:com.samsung.android.app.accesscontrol
+package:com.android.wallpaper.livepicker
+package:com.samsung.android.beaconmanager
+package:com.sec.enterprise.mdm.services.simpin
+package:com.samsung.networkui
+package:com.samsung.android.stickercenter
+package:com.facebook.system
+package:com.sec.android.soagent
+package:com.samsung.android.fmm
+package:com.samsung.android.mdm
+package:com.samsung.android.rlc
+package:com.sec.phone
+package:com.google.android.backuptransport
+package:com.samsung.android.samsungpass
+package:com.android.storagemanager
+package:com.samsung.android.scloud
+package:com.samsung.android.app.soundpicker
+package:com.sec.app.RilErrorNotifier
+package:com.android.bookmarkprovider
+package:com.linkedin.android
+package:com.android.settings
+package:com.samsung.app.newtrim
+package:com.samsung.android.app.color
+package:com.samsung.android.lool
+package:com.sec.android.app.bluetoothtest
+package:com.samsung.android.app.spage
+package:com.egorovandreyrm.pcapremote
+package:com.sec.android.emergencylauncher
+package:com.sec.hearingadjust
+package:com.samsung.android.dlp.service
+package:com.samsung.android.bbc.bbcagent
+package:com.knox.vpn.proxyhandler
+package:com.android.cts.ctsshim
+package:com.samsung.android.stickerplugin
+package:com.sec.android.splitsound
+package:com.wssnps
+package:com.samsung.android.app.watchmanagerstub
+package:com.samsung.android.svcagent
+package:com.policydm
+package:com.samsung.android.sdk.professionalaudio.app.audioconnectionservice
+package:com.enhance.gameservice
+package:com.samsung.android.shortcutbackupservice
+package:com.android.vpndialogs
+package:com.samsung.android.providers.contacts
+package:com.samsung.dcmservice
+package:com.android.phone
+package:com.android.shell
+package:com.android.wallpaperbackup
+package:com.android.providers.blockednumber
+package:com.samsung.android.app.omcagent
+package:com.hiya.star
+package:com.android.providers.userdictionary
+package:com.sec.enterprise.knox.cloudmdm.smdms
+package:com.samsung.android.app.camera.sticker.stamp.preload
+package:com.android.emergency
+package:com.wssyncmldm
+package:com.android.location.fused
+package:com.samsung.android.samsungpassautofill
+package:com.sec.epdg
+package:com.android.systemui
+package:com.sec.android.app.personalization
+package:com.monotype.android.font.cooljazz
+package:com.android.bluetoothmidiservice
+package:com.samsung.android.sdk.handwriting
+package:com.facebook.appmanager
+package:com.samsung.android.app.clockpack
+package:com.quicinc.trepn
+package:com.samsung.aasaservice
+package:com.samsung.android.allshare.service.mediashare
+package:com.sec.android.app.fm
+package:com.sec.android.provider.emergencymode
+package:com.samsung.android.fingerprint.service
+package:com.sec.android.app.camera
+package:com.android.bluetooth
+package:com.samsung.android.contacts
+package:com.sec.android.app.magnifier
+package:com.sec.android.widgetapp.webmanual
+package:com.samsung.sec.android.application.csc
+package:com.android.captiveportallogin
+package:com.samsung.upsmtheme
+package:com.samsung.android.coreapps
+package:com.samsung.android.app.dofviewer
+package:com.samsung.android.bio.face.service
+package:com.samsung.android.video
+
+2021-11-01 12:12:51,759:ERROR:root:Experiment stopped by user. To continue, add progress file argument to experiment startup: --progress /media/external/android-runner/examples/VideoStreaming/output/2021.11.01_112236/progress.xml
