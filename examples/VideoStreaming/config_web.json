@@ -9,7 +9,7 @@
   "systrace_path": "/usr/lib/android-sdk/platform-tools/systrace/systrace.py",
   "powerprofile_path": "/media/external/android-runner/framework-res/res/xml/power_profile.xml",
   "apps": [
-    "com.google.android.youtube"
+    "tv.twitch.android.app"
   ],
   "profilers": {
     "batterystats": {
