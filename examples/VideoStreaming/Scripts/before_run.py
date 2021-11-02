@@ -10,7 +10,7 @@ def main(device, *args, **kwargs):
         first_line = f.readline()
     print(first_line)
 
-    video_twitch(device, "720p", first_line)
+    video_twitch(device, "1080p", first_line)
 
 
     with open('/media/external/android-runner/examples/VideoStreaming/state.txt', 'r') as fin:
