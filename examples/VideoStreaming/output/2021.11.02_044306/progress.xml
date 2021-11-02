@@ -1,0 +1,157 @@
+<experiment>
+  <configHash>7500f356f817f3fcd2db37e2eea305a8</configHash>
+  <outputDir>/media/external/android-runner/examples/VideoStreaming/output/2021.11.02_044306/</outputDir>
+  <runsToRun/>
+  <runsDone>
+    <run runId="0">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>1</runCount>
+    </run>
+    <run runId="1">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>2</runCount>
+    </run>
+    <run runId="2">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>3</runCount>
+    </run>
+    <run runId="3">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>4</runCount>
+    </run>
+    <run runId="4">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>5</runCount>
+    </run>
+    <run runId="5">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>6</runCount>
+    </run>
+    <run runId="6">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>7</runCount>
+    </run>
+    <run runId="7">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>8</runCount>
+    </run>
+    <run runId="8">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>9</runCount>
+    </run>
+    <run runId="9">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>10</runCount>
+    </run>
+    <run runId="10">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>11</runCount>
+    </run>
+    <run runId="11">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>12</runCount>
+    </run>
+    <run runId="12">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>13</runCount>
+    </run>
+    <run runId="13">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>14</runCount>
+    </run>
+    <run runId="14">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>15</runCount>
+    </run>
+    <run runId="15">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>16</runCount>
+    </run>
+    <run runId="16">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>17</runCount>
+    </run>
+    <run runId="17">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>18</runCount>
+    </run>
+    <run runId="18">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>19</runCount>
+    </run>
+    <run runId="19">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>20</runCount>
+    </run>
+    <run runId="20">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>21</runCount>
+    </run>
+    <run runId="21">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>22</runCount>
+    </run>
+    <run runId="22">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>23</runCount>
+    </run>
+    <run runId="23">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>24</runCount>
+    </run>
+    <run runId="24">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>25</runCount>
+    </run>
+    <run runId="25">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>26</runCount>
+    </run>
+    <run runId="26">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>27</runCount>
+    </run>
+    <run runId="27">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>28</runCount>
+    </run>
+    <run runId="28">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>29</runCount>
+    </run>
+    <run runId="29">
+      <device>duo</device>
+      <path>tv.twitch.android.app</path>
+      <runCount>30</runCount>
+    </run>
+  </runsDone>
+</experiment>
